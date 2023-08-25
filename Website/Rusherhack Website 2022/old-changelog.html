@@ -1,0 +1,563 @@
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style>
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    </style>
+    </head>
+    <body>
+    <div id="content"><h1 id="rusherhackchangelog">Rusherhack Changelog</h1>
+    <h2 id="10220200727">[1.0.2] - 2020-07-27</h2>
+    <h3 id="added">Added</h3>
+    <ul>
+    <li><p>Spectators setting to Nametags</p></li>
+    <li><p>ClickGui scale setting</p></li>
+    <li><p>FastBreak mode Packet</p></li>
+    <li><p>Durability hud element</p></li>
+    <li><p>Signs setting to Fucker</p></li>
+    <li><p>IceSpeed</p></li>
+    <li><p>Your current rusherhack version to RichPresence if you hover over the icon</p></li>
+    <li><p>FakePlayer command</p></li>
+    </ul>
+    <h3 id="fixed">Fixed</h3>
+    <ul>
+    <li><p>Text shadows not being drawn on element manager</p></li>
+    <li><p>Fixed AutoWither</p></li>
+    <li><p>AutoMine feet mode targetting friends</p></li>
+    <li><p>AutoCrystal not placing if your AutoSwitch was off</p></li>
+    <li><p>Scaffold not prioritizing your held item</p></li>
+    <li><p>AutoTotem not switching last totem if you had a delay &gt; 0</p></li>
+    <li><p>No swing bobbing with SmallShield enabled</p></li>
+    <li><p>Your hotbar not showing up in Freecam</p></li>
+    <li><p>Height of the TabGui element</p></li>
+    <li><p>RayTrace setting in AutoCrystal now works</p></li>
+    <li><p>ElytraFly changing the timer speed while using freecam</p></li>
+    <li><p>ESP Box mode bobbing if you have view bobbing enabled</p></li>
+    </ul>
+    <h3 id="changed">Changed</h3>
+    <ul>
+    <li><p>Speed mode strafe has less lagbacks (use strict setting on 2b2t)</p></li>
+    <li><p>Improved AutoCrystal</p></li>
+    <li><p>TabGui is no longer enabled by default</p></li>
+    <li><p>TabGui animations are more smooth</p></li>
+    <li><p>Hud clamping is now disable by default</p></li>
+    <li><p>TabGui rainbow setting now enabled by default</p></li>
+    <li><p>Removed shulkers from default search list</p></li>
+    <li><p>AutoHole now pauses Speed</p></li>
+    <li><p>Default AutoCrystal settings</p></li>
+    <li><p>Your hand is now hidden in Freecam</p></li>
+    </ul>
+    <h2 id="10120200720">[1.0.1] - 2020-07-20</h2>
+    <h3 id="added-1">Added</h3>
+    <ul>
+    <li><p>EntitySpeed</p></li>
+    <li><p>Speed setting to WaterSpeed</p></li>
+    <li><p>CustomFont setting to Nametags</p></li>
+    <li><p>Hide setting to AutoReconnect (completely disables it in the disconnect screen if you use another client with auto reconnect)</p></li>
+    <li><p>Return setting to AutoEat, returns to your previous slot after eating</p></li>
+    <li><p>FastPlace</p></li>
+    </ul>
+    <h3 id="fixed-1">Fixed</h3>
+    <ul>
+    <li><p>AutoCrystal not being able to place crystals with your offhand</p></li>
+    <li><p>AutoCrystal AutoSwitch mode "Off" not working</p></li>
+    <li><p>Freecam moving your player if you did not have baritone</p></li>
+    <li><p>Sprint bug (I think, was unable to reproduce)</p></li>
+    <li><p>NoFall mode Anti not removing flying effect</p></li>
+    <li><p>Typo in the AntiBan description</p></li>
+    <li><p>Nametags causing all vanilla nametags (including non player nametags) to vanish</p></li>
+    <li><p>Rotations conflicting with Future Client</p></li>
+    <li><p>Compatibility with Summit client</p></li>
+    </ul>
+    <h3 id="changed-1">Changed</h3>
+    <ul>
+    <li>TextShadows have been added to the clickgui</li>
+    </ul>
+    <h2 id="10020200702">[1.0.0] - 2020-07-02</h2>
+    <h3 id="added-2">Added</h3>
+    <ul>
+    <li><p>Render setting to LagDetector</p></li>
+    <li><p>Extracraft, autocraft module recipe can be set with *recipe set <recipe name=""></recipe></p></li>
+    <li><p>Recipe command, *recipe get <recipe name=""> will tell you how to craft an item, *recipe list for a list</recipe></p></li>
+    <li><p>Added regear (module to automatically regear from a shulker, save a kit with *createkit <name> and select a current kit with *selectkit <name></name></name></p></li>
+    <li><p>ID commmand, use *id <item name=""> or *id to get item ids</item></p></li>
+    <li><p>Translate module, use *language to set the languages, my refers
+    the the language that other's messages will be translated to,
+    participants is the language that you will translate your messages to</p></li>
+    <li><p>CSGO ESP mode</p></li>
+    <li><p>Potion setting to Fullbright</p></li>
+    <li><p>HotbarReplenish</p></li>
+    <li><p>Distance setting to ViewClip</p></li>
+    <li><p>Angles setting to RotationLock</p></li>
+    <li><p>CaveFinder</p></li>
+    <li><p>Look and LookSpeed setting to InventoryMove</p></li>
+    <li><p>Ability to bind modules to mouse buttons (only available via
+    commands right now, *bind add mouse(number) module, example: *bind add
+    mouse5 criticals</p></li>
+    <li><p>Some modules that change your rotation will now allow you to see where its rotating if you are in third person</p></li>
+    <li><p>AutoReconnect</p></li>
+    <li><p>AutoWither</p></li>
+    <li><p>AutoNametag and autonametag command</p></li>
+    <li><p>BossStack</p></li>
+    <li><p>Delay setting to RichPresence</p></li>
+    <li><p>Server ip setting to RichPresence</p></li>
+    <li><p>Notification system</p></li>
+    <li><p>Added console, default key to open the console is ` (grave)</p></li>
+    <li><p>HitboxIgnore (ignores player hitboxes while trying to mine, place, etc)</p></li>
+    <li><p>BreakESP, highlights blocks being broken</p></li>
+    <li><p>Basic Baritone integration</p></li>
+    <li><p>Avoid</p></li>
+    <li><p>Sprint Omnidirectional setting, and a strict setting that should bypass all anticheats</p></li>
+    <li><p>Introduction screen when you run rusherhack for the first time</p></li>
+    <li><p>Update screen when the client updates itself</p></li>
+    <li><p>Settings to RainbowEnchant</p></li>
+    <li><p>AutoHole (baritone module)</p></li>
+    <li><p>HoleFiller</p></li>
+    <li><p>Baritone module</p></li>
+    <li><p>Added Fly mode to AntiLevitation</p></li>
+    <li><p>Added settings to noglitchblocks</p></li>
+    <li><p>CastDelay setting to AutoFish</p></li>
+    <li><p>CustomFont rendering, change the font with *customfont</p></li>
+    <li><p>Added custom main menu with custom shader backgrounds, customize it with the mainmenu module (you can toggle it off too)</p></li>
+    <li><p>RangeCircle</p></li>
+    <li><p>(Plus Only) Added Boatfly Bypass (strict setting)</p></li>
+    <li><p>Added Bedspawn command</p></li>
+    <li><p>WayPoints</p></li>
+    </ul>
+    <h3 id="changed-2">Changed</h3>
+    <ul>
+    <li><p>Combine NoChatBackground, NameHighlight, Nameprotect, NoChat, and MaxChatLines into a new module called "ExtraChat"</p></li>
+    <li><p>Directory has been changed from .minecraft/rusher_hack/ to .minecraft/rusherhack</p></li>
+    <li><p>Rewrote Announcer</p></li>
+    <li><p>Combine DeathAnnouncer and Autocityboss into "AutoToxic"</p></li>
+    <li><p>Rewrote Nametags</p></li>
+    <li><p>Rewrote AutoReply</p></li>
+    <li><p>RusherCrypt, RusherDecrypt, and ChatObfuscator combined into one module "RusherCrypt"</p></li>
+    <li><p>Rewrote LogoutSpots and moved it to render</p></li>
+    <li><p>Merged SignText and colorsigns into one module "ExtraSign", added date append setting</p></li>
+    <li><p>Rewrote Spammer with the ability to have more than 1 spammer config, *spammerfile command</p></li>
+    <li><p>Merged StrengthDetect and VisualRange into PvpInfo and added and Pearls</p></li>
+    <li><p>Rewrote Trajectories</p></li>
+    <li><p>Rewrote aimbot and renamed it to AimAssist</p></li>
+    <li><p>Rewrote KillAura and renamed it to Aura</p></li>
+    <li><p>Merge Antishulker and HopperNuker into Fucker and added rotations and delay setting</p></li>
+    <li><p>Rewrote AutoArmor and added blastprot priority, elytrapriority, and delay settings</p></li>
+    <li><p>Rewrote AutoCrystal and added a lot of settings</p></li>
+    <li><p>Moved Velocity to movement category</p></li>
+    <li><p>Rewrote Velocity and merged NoPush into velocity with more customizability</p></li>
+    <li><p>Rewrote NoSlow and merged NoSlip and NoWeb into NoSlow and added soulsand and strict setting</p></li>
+    <li><p>Merged all storage settings in esp into one setting called "Storages"</p></li>
+    <li><p>Rewrote AutoExp with dynamicarmor setting</p></li>
+    <li><p>Rewrote autototem and added soft setting</p></li>
+    <li><p>Rewrote AutoObsidian and renamed it to AutoSurround, added a lot of settings and fixed a lot of bugs</p></li>
+    <li><p>Rewrote NoRender and added more settings</p></li>
+    <li><p>Rewrote Criticals</p></li>
+    <li><p>(Plus Only) Merged bowbomb into bowspam</p></li>
+    <li><p>Move Timer to world category</p></li>
+    <li><p>Improved strafe speed, and removed useless modes</p></li>
+    <li><p>Merged Strafe module into speed as a mode called "GroundStrafe"</p></li>
+    <li><p>Rewrote HoleESP</p></li>
+    <li><p>Merge NoWeather into NoRender</p></li>
+    <li><p>Renamed DebugCrosshair to Crosshair and added csgo mode with a lot of options</p></li>
+    <li><p>Remade bind command, bind <add|del|list|clear> <key> <module></module></key></add|del|list|clear></p></li>
+    <li><p>Rewrote AutoTrap with tons of new features</p></li>
+    <li><p>Rewrote BowAim and renamed it to BowAimbot</p></li>
+    <li><p>Merged LawnMower into Fucker as the setting "Lawn"</p></li>
+    <li><p>Rewrote TriggerBot with more settings</p></li>
+    <li><p>Merged NoCaveCulling into NoRender as "CaveCulling" setting</p></li>
+    <li><p>Renamed Flight mode Static to Creative</p></li>
+    <li><p>Made RotationLock smoother</p></li>
+    <li><p>Rewrote Xray</p></li>
+    <li><p>Rewrite InventoryMove (now compatible with more clients)</p></li>
+    <li><p>Rewrote Scaffold, bypasses ncp now</p></li>
+    <li><p>Rewrite tracers, more settings</p></li>
+    <li><p>Improved PacketFly, desyncs less often but it still cannot phase easily</p></li>
+    <li><p>Rewrite AntiAim</p></li>
+    <li><p>Improve NoForceRotate</p></li>
+    <li><p>Rewrote AutoMount</p></li>
+    <li><p>Rewrote FastBreak and added speed and delay setting</p></li>
+    <li><p>Replaced color settings in modules with a color picker</p></li>
+    <li><p>Rewrote jesus, added solid mode</p></li>
+    <li><p>Rewrote ElytraFly (replaced 2b2t mode with control, can be used to go upwards. fixed packet)</p></li>
+    <li><p>Merge novoid into avoid</p></li>
+    <li><p>Rewrote newchunks, added settings</p></li>
+    <li><p>Rewrote BaseFinder</p></li>
+    <li><p>Rewrote AntiHunger</p></li>
+    <li><p>Rewrote Freecam, now compatible with baritone</p></li>
+    <li><p>Rewrote BoatFly</p></li>
+    <li><p>Rewrote Chams, WAY more settings</p></li>
+    <li><p>Rewrote SkinBlink</p></li>
+    <li><p>Rewrite AntiAFK with baritone setting</p></li>
+    <li><p>Rewrote AutoEat, should work better in low tps environments</p></li>
+    <li><p>Merged AutoGapple into AutoEat as health mode</p></li>
+    <li><p>Rewrote Breadcrumbs</p></li>
+    <li><p>Rewrote AutoMine (now has a mode to mine blocks at players feet so you can easily crystal them)</p></li>
+    <li><p>Renamed "Other" category to "HUD"</p></li>
+    <li><p>Rewrote AntiPacket</p></li>
+    <li><p>Renamed portalchat to portalgui</p></li>
+    <li><p>Rewrote clicktp</p></li>
+    <li><p>renamed Gui category to Client</p></li>
+    <li><p>AutoEat now pauses baritone pathing (toggleable)</p></li>
+    <li><p>BaseFinder now prints the server ip in the log</p></li>
+    <li><p>Rewrote Zoom</p></li>
+    <li><p>Rewrote search</p></li>
+    <li><p>Renamed MiddleClickFriends to MiddleClick, added range setting, entitynbt setting, and blocknbt setting</p></li>
+    <li><p>Rewrote PacketMine and renamed it to NoMineAnimation</p></li>
+    <li><p>Rewrote autotunnel</p></li>
+    <li><p>Rewrote LiquidRemover, renamed it to SourceRemover</p></li>
+    <li><p>Rewrote Nuker</p></li>
+    <li><p>Rewrote Ignite, moved to combat category</p></li>
+    <li><p>Rewrote BlockOutline</p></li>
+    <li><p>Rewrote Hitmarkers, added customizable sound (replace
+    hitmarker.ogg in .minecraft/rusherhack/Hitmarkers with a file with the
+    same name and extension)</p></li>
+    <li><p>Rewrote AutoSpleef</p></li>
+    <li><p>Rewrote Phase</p></li>
+    <li><p>Rewrote NoFall and moved to movement category</p></li>
+    <li><p>Rewrote the ClickGui (removed scale slider since it scales automatically)</p></li>
+    <li><p>Rewrote HUD, default hud editor keybind is comma</p></li>
+    <li><p>Rewrote every HUD element#</p></li>
+    <li><p>Merged AutoQueueReconnect into AutoReconnect as a setting</p></li>
+    <li><p>Rewrote GameMode</p></li>
+    <li><p>Renamed ImgurScreenshot to ExtraScreenshot</p></li>
+    <li><p>Rewrote Notifications module</p></li>
+    <li><p>Rewrote PingSpoof (it actually works now)</p></li>
+    <li><p>Moved MapReset to misc category</p></li>
+    <li><p>Rewrote Lagger and added new modes</p></li>
+    <li><p>Moved Lagger to misc category</p></li>
+    <li><p>Rewrote ChestStealer, renamed it to ExtraChest, and moved it to misc category</p></li>
+    <li><p>Moved AntiLagExploit to misc and renamed it to NoSoundLag</p></li>
+    <li><p>Rewrote Borders module, add settings for chunks, mapart, and regions and ylevel</p></li>
+    <li><p>Rewrote Seeker</p></li>
+    <li><p>Renamed Desync module to EntityDesync</p></li>
+    <li><p>Rewrote every command</p></li>
+    <li><p>Rewrote MobOwner</p></li>
+    <li><p>Rewrote macro system</p></li>
+    </ul>
+    <h3 id="removed">Removed</h3>
+    <ul>
+    <li><p>Disability module (it can just be done with ChatAppend lol)</p></li>
+    <li><p>popbobLag and clydeLag</p></li>
+    <li><p>NameBypass because hause's patch was removed</p></li>
+    <li><p>StrengthDetect</p></li>
+    <li><p>Anti32k</p></li>
+    <li><p>Auto32k</p></li>
+    <li><p>AutoElytraReplace (use elytrapriority in AutoArmor)</p></li>
+    <li><p>AutoChorus</p></li>
+    <li><p>Flight modes Weird and Hypixel</p></li>
+    <li><p>Rewrote AutoAccept and add setting for duels</p></li>
+    <li><p>Headless module</p></li>
+    <li><p>RemoveCrystal</p></li>
+    <li><p>PullBack</p></li>
+    <li><p>AutoGapOffhand</p></li>
+    <li><p>BoatClip</p></li>
+    <li><p>Heaven</p></li>
+    <li><p>NoLagDesync</p></li>
+    <li><p>Rewrote Xcarry and merged IllegalItemBypass into Xcarry as "Cancel" setting</p></li>
+    <li><p>Rewrote CoordLogger</p></li>
+    <li><p>Australia</p></li>
+    <li><p>HitSpheres</p></li>
+    <li><p>HopperRadius</p></li>
+    <li><p>removed Promod</p></li>
+    </ul>
+    <h3 id="fixed-2">Fixed</h3>
+    <ul>
+    <li><p>A bug in ChatAppend where you couldn't use unicode text</p></li>
+    <li><p>"MoorseCode" typo in FancyChat</p></li>
+    <li><p>Probably fixed weird chunk bug with baritone</p></li>
+    <li><p>Improved performance of render modules</p></li>
+    <li><p>AutoRespawn deathcoords no longer spams chat</p></li>
+    <li><p>Grey ESP boxes if using the client with baritone</p></li>
+    <li><p>Some HUD elements hot having text shadow</p></li>
+    <li><p>Fixed BaseFinder crashes</p></li>
+    <li><p>AutoWalk compatibility with other clients</p></li>
+    <li><p>Jesus and Step now work with baritone</p></li>
+    <li><p>Compatibility of BlockTweaks with other clients</p></li>
+    <li><p>Fix ForcePlace</p></li>
+    <li><p>Fixed multimc compatibility</p></li>
+    </ul>
+    <p></p></div>
+    
+    <div id="raw" hidden="">
+    # Rusherhack Changelog
+    ## [1.0.2] - 2020-07-27
+    ### Added
+    - Spectators setting to Nametags
+    - ClickGui scale setting
+    - FastBreak mode Packet
+    - Durability hud element
+    - Signs setting to Fucker
+    - IceSpeed
+    - Your current rusherhack version to RichPresence if you hover over the icon
+    - FakePlayer command
+    ### Fixed
+    - Text shadows not being drawn on element manager
+    - Fixed AutoWither
+    - AutoMine feet mode targetting friends
+    - AutoCrystal not placing if your AutoSwitch was off
+    - Scaffold not prioritizing your held item
+    - AutoTotem not switching last totem if you had a delay &gt; 0
+    - No swing bobbing with SmallShield enabled
+    - Your hotbar not showing up in Freecam
+    - Height of the TabGui element
+    - RayTrace setting in AutoCrystal now works
+    - ElytraFly changing the timer speed while using freecam
+    - ESP Box mode bobbing if you have view bobbing enabled
+    ### Changed
+    - Speed mode strafe has less lagbacks (use strict setting on 2b2t)
+    - Improved AutoCrystal
+    - TabGui is no longer enabled by default
+    - TabGui animations are more smooth
+    - Hud clamping is now disable by default
+    - TabGui rainbow setting now enabled by default
+    - Removed shulkers from default search list
+    - AutoHole now pauses Speed
+    - Default AutoCrystal settings
+    - Your hand is now hidden in Freecam
+    ## [1.0.1] - 2020-07-20
+    ### Added
+    - EntitySpeed
+    - Speed setting to WaterSpeed
+    - CustomFont setting to Nametags
+    - Hide setting to AutoReconnect (completely disables it in the disconnect screen if you use another client with auto reconnect)
+    - Return setting to AutoEat, returns to your previous slot after eating
+    - FastPlace
+    ### Fixed
+    - AutoCrystal not being able to place crystals with your offhand
+    - AutoCrystal AutoSwitch mode "Off" not working
+    - Freecam moving your player if you did not have baritone
+    - Sprint bug (I think, was unable to reproduce)
+    - NoFall mode Anti not removing flying effect
+    - Typo in the AntiBan description
+    - Nametags causing all vanilla nametags (including non player nametags) to vanish
+    - Rotations conflicting with Future Client
+    - Compatibility with Summit client
+    ### Changed
+    - TextShadows have been added to the clickgui
+    ## [1.0.0] - 2020-07-02
+    ### Added
+    - Render setting to LagDetector
+    - Extracraft, autocraft module recipe can be set with *recipe set <recipe name="">
+    - Recipe command, *recipe get <recipe name=""> will tell you how to craft an item, *recipe list for a list
+    - Added regear (module to automatically regear from a shulker, save a kit with *createkit <name> and select a current kit with *selectkit <name>
+    - ID commmand, use *id <item name=""> or *id to get item ids
+    - Translate module, use *language to set the languages, my refers the
+    the language that other's messages will be translated to, participants
+    is the language that you will translate your messages to
+    - CSGO ESP mode
+    - Potion setting to Fullbright
+    - HotbarReplenish
+    - Distance setting to ViewClip
+    - Angles setting to RotationLock
+    - CaveFinder
+    - Look and LookSpeed setting to InventoryMove
+    - Ability to bind modules to mouse buttons (only available via commands
+    right now, *bind add mouse(number) module, example: *bind add mouse5
+    criticals
+    - Some modules that change your rotation will now allow you to see where
+    its rotating if you are in third person
+    - AutoReconnect
+    - AutoWither
+    - AutoNametag and autonametag command
+    - BossStack
+    - Delay setting to RichPresence
+    - Server ip setting to RichPresence
+    - Notification system
+    - Added console, default key to open the console is \` (grave)
+    - HitboxIgnore (ignores player hitboxes while trying to mine, place,
+    etc)
+    - BreakESP, highlights blocks being broken
+    - Basic Baritone integration
+    - Avoid
+    - Sprint Omnidirectional setting, and a strict setting that should
+    bypass all anticheats
+    - Introduction screen when you run rusherhack for the first time
+    - Update screen when the client updates itself
+    - Settings to RainbowEnchant
+    - AutoHole (baritone module)
+    - HoleFiller
+    - Baritone module
+    - Added Fly mode to AntiLevitation
+    - Added settings to noglitchblocks
+    - CastDelay setting to AutoFish
+    - CustomFont rendering, change the font with *customfont
+    - Added custom main menu with custom shader backgrounds, customize it
+    with the mainmenu module (you can toggle it off too)
+    - RangeCircle
+    - (Plus Only) Added Boatfly Bypass (strict setting)
+    - Added Bedspawn command
+    - WayPoints
+    ### Changed
+    - Combine NoChatBackground, NameHighlight, Nameprotect, NoChat, and
+    MaxChatLines into a new module called "ExtraChat"
+    - Directory has been changed from .minecraft/rusher_hack/ to
+    .minecraft/rusherhack
+    - Rewrote Announcer
+    - Combine DeathAnnouncer and Autocityboss into "AutoToxic"
+    - Rewrote Nametags
+    - Rewrote AutoReply
+    - RusherCrypt, RusherDecrypt, and ChatObfuscator combined into one
+    module "RusherCrypt"
+    - Rewrote LogoutSpots and moved it to render
+    - Merged SignText and colorsigns into one module "ExtraSign", added date
+    append setting
+    - Rewrote Spammer with the ability to have more than 1 spammer config,
+    *spammerfile command
+    - Merged StrengthDetect and VisualRange into PvpInfo and added and
+    Pearls
+    - Rewrote Trajectories
+    - Rewrote aimbot and renamed it to AimAssist
+    - Rewrote KillAura and renamed it to Aura
+    - Merge Antishulker and HopperNuker into Fucker and added rotations and
+    delay setting
+    - Rewrote AutoArmor and added blastprot priority, elytrapriority, and
+    delay settings
+    - Rewrote AutoCrystal and added a lot of settings
+    - Moved Velocity to movement category
+    - Rewrote Velocity and merged NoPush into velocity with more
+    customizability
+    - Rewrote NoSlow and merged NoSlip and NoWeb into NoSlow and added
+    soulsand and strict setting
+    - Merged all storage settings in esp into one setting called "Storages"
+    - Rewrote AutoExp with dynamicarmor setting
+    - Rewrote autototem and added soft setting
+    - Rewrote AutoObsidian and renamed it to AutoSurround, added a lot of
+    settings and fixed a lot of bugs
+    - Rewrote NoRender and added more settings
+    - Rewrote Criticals
+    - (Plus Only) Merged bowbomb into bowspam
+    - Move Timer to world category
+    - Improved strafe speed, and removed useless modes
+    - Merged Strafe module into speed as a mode called "GroundStrafe"
+    - Rewrote HoleESP
+    - Merge NoWeather into NoRender
+    - Renamed DebugCrosshair to Crosshair and added csgo mode with a lot of
+    options
+    - Remade bind command, bind <add|del|list|clear> <key> <module>
+    - Rewrote AutoTrap with tons of new features
+    - Rewrote BowAim and renamed it to BowAimbot
+    - Merged LawnMower into Fucker as the setting "Lawn"
+    - Rewrote TriggerBot with more settings
+    - Merged NoCaveCulling into NoRender as "CaveCulling" setting
+    - Renamed Flight mode Static to Creative
+    - Made RotationLock smoother
+    - Rewrote Xray
+    - Rewrite InventoryMove (now compatible with more clients)
+    - Rewrote Scaffold, bypasses ncp now
+    - Rewrite tracers, more settings
+    - Improved PacketFly, desyncs less often but it still cannot phase
+    easily
+    - Rewrite AntiAim
+    - Improve NoForceRotate
+    - Rewrote AutoMount
+    - Rewrote FastBreak and added speed and delay setting
+    - Replaced color settings in modules with a color picker
+    - Rewrote jesus, added solid mode
+    - Rewrote ElytraFly (replaced 2b2t mode with control, can be used to go
+    upwards. fixed packet)
+    - Merge novoid into avoid
+    - Rewrote newchunks, added settings
+    - Rewrote BaseFinder
+    - Rewrote AntiHunger
+    - Rewrote Freecam, now compatible with baritone
+    - Rewrote BoatFly
+    - Rewrote Chams, WAY more settings
+    - Rewrote SkinBlink
+    - Rewrite AntiAFK with baritone setting
+    - Rewrote AutoEat, should work better in low tps environments
+    - Merged AutoGapple into AutoEat as health mode
+    - Rewrote Breadcrumbs
+    - Rewrote AutoMine (now has a mode to mine blocks at players feet so you
+    can easily crystal them)
+    - Renamed "Other" category to "HUD"
+    - Rewrote AntiPacket
+    - Renamed portalchat to portalgui
+    - Rewrote clicktp
+    - renamed Gui category to Client
+    - AutoEat now pauses baritone pathing (toggleable)
+    - BaseFinder now prints the server ip in the log
+    - Rewrote Zoom
+    - Rewrote search
+    - Renamed MiddleClickFriends to MiddleClick, added range setting,
+    entitynbt setting, and blocknbt setting
+    - Rewrote PacketMine and renamed it to NoMineAnimation
+    - Rewrote autotunnel
+    - Rewrote LiquidRemover, renamed it to SourceRemover
+    - Rewrote Nuker
+    - Rewrote Ignite, moved to combat category
+    - Rewrote BlockOutline
+    - Rewrote Hitmarkers, added customizable sound (replace hitmarker.ogg in
+    .minecraft/rusherhack/Hitmarkers with a file with the same name and
+    extension)
+    - Rewrote AutoSpleef
+    - Rewrote Phase
+    - Rewrote NoFall and moved to movement category
+    - Rewrote the ClickGui (removed scale slider since it scales
+    automatically)
+    - Rewrote HUD, default hud editor keybind is comma
+    - Rewrote every HUD element#
+    - Merged AutoQueueReconnect into AutoReconnect as a setting
+    - Rewrote GameMode
+    - Renamed ImgurScreenshot to ExtraScreenshot
+    - Rewrote Notifications module
+    - Rewrote PingSpoof (it actually works now)
+    - Moved MapReset to misc category
+    - Rewrote Lagger and added new modes
+    - Moved Lagger to misc category
+    - Rewrote ChestStealer, renamed it to ExtraChest, and moved it to misc
+    category
+    - Moved AntiLagExploit to misc and renamed it to NoSoundLag
+    - Rewrote Borders module, add settings for chunks, mapart, and regions
+    and ylevel
+    - Rewrote Seeker
+    - Renamed Desync module to EntityDesync
+    - Rewrote every command
+    - Rewrote MobOwner
+    - Rewrote macro system
+    ### Removed
+    - Disability module (it can just be done with ChatAppend lol)
+    - popbobLag and clydeLag
+    - NameBypass because hause's patch was removed
+    - StrengthDetect
+    - Anti32k
+    - Auto32k
+    - AutoElytraReplace (use elytrapriority in AutoArmor)
+    - AutoChorus
+    - Flight modes Weird and Hypixel
+    - Rewrote AutoAccept and add setting for duels
+    - Headless module
+    - RemoveCrystal
+    - PullBack
+    - AutoGapOffhand
+    - BoatClip
+    - Heaven
+    - NoLagDesync
+    - Rewrote Xcarry and merged IllegalItemBypass into Xcarry as "Cancel"
+    setting
+    - Rewrote CoordLogger
+    - Australia
+    - HitSpheres
+    - HopperRadius
+    - removed Promod
+    ### Fixed
+    - A bug in ChatAppend where you couldn't use unicode text
+    - "MoorseCode" typo in FancyChat
+    - Probably fixed weird chunk bug with baritone
+    - Improved performance of render modules
+    - AutoRespawn deathcoords no longer spams chat
+    - Grey ESP boxes if using the client with baritone
+    - Some HUD elements hot having text shadow
+    - Fixed BaseFinder crashes
+    - AutoWalk compatibility with other clients
+    - Jesus and Step now work with baritone
+    - Compatibility of BlockTweaks with other clients
+    - Fix ForcePlace
+    - Fixed multimc compatibility
+    </module></key></add|del|list|clear></item></name></name></recipe></recipe></div>
+    <script type="text/javascript">
+    var converter = new showdown.Converter();
+    let html = converter.makeHtml(document.getElementById("raw").innerHTML);
+    document.getElementById("content").innerHTML=html;
+    </script>
+    </body></html>

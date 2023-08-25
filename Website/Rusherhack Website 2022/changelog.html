@@ -1,0 +1,1030 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>RusherHack</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" /><br />
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+</head>
+<body>
+<div id="header-wrapper">
+<div id="header" class="container">
+<div id="logo">
+<h1><a href="#"><img src="images/rh.png" width="25%"></a></h1>
+</div>
+<div id="menu">
+<ul>
+<li><a href="index.html" accesskey="1" title="">Home</a></li>
+<li><a href="features.html" accesskey="2" title="">Features</a></li>
+<li><a href="tos.html" accesskey="3" title="">Terms of Service</a></li>
+<li><a href="rusherbot.html" accesskey="4" title="">RusherBot</a></li>
+<li><a href="sharex.html" accesskey="5" title="">ShareX</a></li>
+<li><a href="faq.html" accesskey="6" title="">FAQ</a></li>
+<li class="active"><a href="changelog.html" accesskey="7" title="">Changelog</a></li>
+</ul>
+</div>
+</div>
+<div id="banner" class="container">
+<div class="title" style="text-align: left">
+<h2>RusherHack</h2>
+<span class="byline">Changelog - v1.3 (July 4th 2022)</span><br><br>
+<h1>Added</h1>
+<ul>
+<li>ChorusControl module</li>
+<li>TickShift module</li>
+<li>Background module</li>
+<li>TrueDurability module</li>
+<li>AntiQuit module</li>
+<li>AutoSorter module</li>
+<li>AntiSpam module</li>
+<li>AutoTrader module</li>
+<li>Logo hud element</li>
+<li>2b2tQueue hud element</li>
+<li>Weather hud element</li>
+<li>*nuker block command</li>
+<li>*disconnect command</li>
+<li>Horizontal mode in BowSpam BowBomb</li>
+<li>Delay setting in AutoRespawn</li>
+<li>YLevel, Time, and StopAutoRC settings in AutoDisconnect</li>
+<li>Volume setting in Hitmarkers Sound</li>
+<li>Others setting in RangeCircle</li>
+<li>Durability mode in RainbowEnchant</li>
+<li>Damage setting in Notifications</li>
+<li>Smart and SafeRange settings in HoleFiller</li>
+<li>SwitchBob setting in Animations</li>
+<li>Fireworks setting in ForcePlace</li>
+<li>FakePlayers setting in Entities</li>
+<li>Bobbing setting in NoRender Players</li>
+<li>Eating and Criticals settings in NoRender Particles</li>
+<li>Range setting in NoRender NoCluster</li>
+<li>IgnoreHotbar setting in InventoryCleaner</li>
+<li>GlobalColor setting in Hud</li>
+<li>Hide setting in Nametags TotemPops</li>
+<li>ChatEmbed and EnderChests settings in ExtraTooltip</li>
+<li>ItemFrames setting in ExtraTooltip Shulkers</li>
+<li>Dispensers, IgnoreDungeonChests, and ToggleOnDisconnect settings in BaseFinder</li>
+<li>SelfRunOut setting in PvpInfo Potions</li>
+<li>SilkTouch setting in AutoTool</li>
+<li>Throw and SilentThrow settings in EXPFast</li>
+<li>Custom mode in RichPresence</li>
+<li>Mode setting in HoleESP Glow</li>
+<li>Copy mode in ExtraScreenshot</li>
+<li>Width setting in Search DrawBox Outline</li>
+<li>GlintSpeed setting in RainbowEnchant</li>
+<li>Off mode and Search setting in ExtraChest</li>
+<li>Blocks setting in HitboxIgnore</li>
+<li>Animations setting in ExtraChat</li>
+<li>Metadata setting in FeatureList</li>
+<li>Icons setting in PotionEffects</li>
+<li>Shulkers setting in DubCounter</li>
+<li>Interdimensional and Simple settings in Position</li>
+<li>HotbarLock setting in Armor hud element</li>
+<li>ShowHidden setting in BindList</li>
+<li>CombineDuplicates setting in EntityList</li>
+<li>CombineDuplicates setting in EntityList</li>
+<li>ShowHidden, Enabled, and Disabled settings in BindList</li>
+<li>Label setting in text hud elements</li>
+<li>Color, Animations, and SortMode settings in List hud elements</li>
+<li>shulkerbox wildcard to *search blocks command</li>
+<li>the ability to open other folders in the .minecraft directory from the *openfolder command</li>
+<li>Hide Text and Toggle All buttons in Packets window</li>
+<li>timestamps in Console window</li>
+<li>buttons to modify AutoReconnect delay on the disconnected screen</li>
+<li>the ability to select a specific mode value by middle clicking the mode setting</li>
+<li>the ability to set a precise value in number setting by middle clicking</li>
+<li>hold binds in modules. hold the key while binding for 1 second to toggle</li>
+<li>JVM argument to disable rusherhack baritone integration, "-Drusherhack.disableBaritoneIntegration=true"</li>
+</ul>
+<h1>Fixed</h1>
+<ul>
+<li>AutoArmor being buggy while in containers</li>
+<li>AutoRespawn DeathCoords spam</li>
+<li>AutoDisconnect disconnecting when joining a server to the death screen</li>
+<li>AutoDisconnect disconnecting when joining a server to the death screen</li>
+<li>Hitmarkers not being directly in the middle of the screen</li>
+<li>Aura rotate bugs while using WeaponCheck setting</li>
+<li>InventoryCleaner and ExtraChest commands being broken</li>
+<li>Rendering issues with NoRender NoCluster</li>
+<li>AutoMount Horses setting not working on skeleton horses</li>
+<li>FullBright bug</li>
+<li>FakePlayers not having invulnerability ticks</li>
+<li>bug when opening Windows module from the ClickGui</li>
+<li>ExtraChat Mentions Highlight formatting bug</li>
+<li>Anchor delay bug</li>
+<li>Friend Manager window not updating</li>
+<li>OnlineTime hud element being affected by Timer module</li>
+<li>LogoutSpots Ghost visual bug</li>
+<li>AutoArmor Durability setting not working with Elytras</li>
+<li>not being able to log into Microsoft accounts in the Alt Manager on older Java versions</li>
+<li>some commands printing "null" into the Console window</li>
+<li>MobOwner bugs</li>
+<li>AutoArmor not equiping armor when a gui is open</li>
+<li>SearchBar bug when typing in slider button</li>
+<li>Toggling Speed crashing on the main menu</li>
+<li>Alt Manager crash</li>
+<li>Search Sound crash</li>
+<li>Linux and macOS hwid inconsistencies</li>
+</ul>
+<h1>Changed</h1>
+<ul>
+<li>Search logic rewritten</li>
+<li>List hud elements rewritten</li>
+<li>NoSlow 2b2t setting updated</li>
+<li>Timer now takes timer priority over other modules</li>
+<li>ElytraFly InstantFly no longer tries to takeoff while in liquid</li>
+<li>Sent chat history no longer gets cleared</li>
+<li>MiddleClick Pearl consistency improved</li>
+<li>Waypoints command dimension recognition improved</li>
+<li>ExtraScreenshot now saves images asynchronously</li>
+<li>ExtraScreenshot now copies screenshot links with https protocol instead of http</li>
+<li>AutoSurround Center setting improved</li>
+<li>Step Timer setting improved</li>
+<li>RotationLock Custom settings now allows more precision</li>
+<li>ExtraTooltip settings refactored</li>
+<li>Speed Strafe mode no longer jumps if you are in liquid</li>
+<li>Open RusherHack guis on the disconnected screen</li>
+<li>AutoReconnect button placement improved</li>
+<li>HoleESP Double setting improved</li>
+<li>BreakESP self rendering improved</li>
+<li>ESP Tunnels setting is now multithreaded</li>
+<li>damage values can now be specified for ExtraChest items</li>
+</ul>
+<h1>Removed</h1>
+<ul>
+<li>AntiBot module</li>
+<li>AntiBot module</li>
+<li>AutoIgnore module</li>
+<li>Particles module</li>
+<li>Secret main menu shader</li>
+<li>AntiDisconnect setting in AutoReconnect</li>
+<li>Chat setting in AntiAFK</li>
+</ul>
+<span class="byline">Changelog - v1.2.3 (September 5th 2021)</span><br><br>
+<h1>Added</h1>
+<ul>
+<li>Anchor module</li>
+<li>InventoryCleaner module</li>
+<li>Environment module</li>
+<li>Entities module</li>
+<li>Quiver module</li>
+<li>CrystalCounter hud element</li>
+<li>DubCounter hud element</li>
+<li>Ability to add items to HotbarReplenish via command and removed item settings</li>
+<li>Offhand setting to HotbarReplenish</li>
+<li>Similar option to Hud Notification Filter setting</li>
+<li>Tunnels setting to ESP</li>
+<li>Glow setting to HoleESP</li>
+<li>Outline Height setting to HoleESP</li>
+<li>Color setting to Chams Glint</li>
+<li>AutoTotem WhileEating setting</li>
+<li>Ghost setting to LogoutSpots</li>
+<li>Containers setting to Regear</li>
+<li>*notify command</li>
+<li>Offhand compatibility to AutoEat</li>
+<li>Offhand compatibility to AutoFish</li>
+<li>PauseBind setting to Baritone module</li>
+<li>Locking setting to ExtraToolips Shulkers</li>
+<li>Extrapolation setting to AutoCrystal Targeting</li>
+<li>Saddles setting to NoRender Entities</li>
+<li>ClientSide setting to NoSwing</li>
+<li>AutoDisable setting to LongJump</li>
+<li>Offhand setting to Swing module</li>
+<li>ChatColor setting to Hud Notifications</li>
+<li>Separate MinDamage and MaxSelfDamage settings to AutoCrystal for breaking with Smart mode</li>
+<li>NoCluster setting to NoRender Entities</li>
+<li>Projectiles setting to NoRender Entities</li>
+<li>Liquid setting to NoRender World</li>
+<li>BeaconBeam setting to NoRender World</li>
+<li>XP setting to NoRender Entities</li>
+<li>Hands setting to NoRender Player</li>
+<li>Durability Threshold setting to AutoArmor</li>
+<li>Option in TPS hud element to show tick-length instead of tick-rate</li>
+<li>Delay setting to AutoMount</li>
+<li>Entities setting to ForcePlace</li>
+<li>Inventory setting to AutoTool</li>
+<li>Endermen setting to Avoid</li>
+<li>Blocks Alert setting to Search</li>
+<li>Blocks Sound setting to Search</li>
+<li>Center setting to SelfBlock</li>
+<li>Mode setting to Time hud element</li>
+<li>HideF1 setting to Tracers</li>
+<li>HorseInfo setting to Nametags</li>
+<li>Settings to Trajectories to toggle different airborne entity types</li>
+<li>Width setting to NewChunks</li>
+<li>Inverse setting to NewChunks</li>
+<li>Burning setting to AutoEat GoldenApples</li>
+<li>*chatappend command</li>
+<li>DepthStriderRequired setting to WaterSpeed</li>
+<li>Separate settings in WaterSpeed for vertical velocity</li>
+<li>WaterRaise setting to Armor hud element</li>
+<li>Fire setting to Fucker</li>
+</ul>
+<h1>Fixed</h1>
+<ul>
+<li>Windows 11 compatibility</li>
+<li>AutoCrystal OnlyOwn Break mode not breaking crystals placed from off hand</li>
+<li>AutoCrystal Smart Break mode</li>
+<li>Numerous AutoCrystal bugs</li>
+<li>AutoCrystal WhileEating check not working when eating in offhand</li>
+<li>AutoWalk Baritone mode not being able to walk on diagonals</li>
+<li>AutoEat opening containers</li>
+<li>AutoEat PauseBaritone setting</li>
+<li>AutoSurround placing unnecessary blocks</li>
+<li>Purple chestplate on PlayerView hud element when using Inventory hud element</li>
+<li>AutoCrystal Smart mode not accounting for MaxSelfDamage</li>
+<li>NoFall code running while elytra flying</li>
+<li>AutoEat Return setting</li>
+<li>ESP Light setting not being accurate</li>
+<li>Xray texture bug when using Optifine anti aliasing/shaders</li>
+<li>ESP rendering upside down whilst using Chams Glint</li>
+<li>Notifications Whispers false positive</li>
+<li>ClientSideTime breaking TPS meters</li>
+<li>Bind settings not aligning properly to the right in the ClickGui</li>
+<li>Opening Windows module from ClickGui being buggy</li>
+<li>AutoTotem Health mode not switching back to totem if health was low and AlternateWhen bind was toggled</li>
+<li>SelfBlock not working whilst standing on top of an ender chest</li>
+<li>LogoutSpots rendering spots in other dimensions</li>
+<li>Search not working with skulls</li>
+<li>Speed OnGround Strict setting working while under signs</li>
+<li>AutoMine Feet mode only hitting once even if FastBreak module is disabled</li>
+<li>AutoMine AutoDisable setting</li>
+<li>Chams fill alpha slider not working</li>
+<li>PlayerView hud element not looking at mouse cursor in all guis</li>
+<li>Alignment bug with Direction hud element</li>
+<li>Xray Opacity setting resetting after restarting</li>
+<li>OnlineTime hud element not working after game restart while having the element still enabled</li>
+<li>AutoIgnore Exclusions setting group being empty</li>
+<li>Time hud element 24 hour format not handling midnight correctly</li>
+<li>FastBreak AutoSwitch setting not saving</li>
+<li>Block break lag</li>
+<li>PlayerView hud element following mouse in guis even when Forward is enabled</li>
+<li>Avoid Unloaded priority</li>
+<li>Duplicate tray icons from Notifications module</li>
+<li>InventoryMove "Others" setting working whilst in chat</li>
+<li>PvpInfo StrengthDetect detecting the local player</li>
+<li>Flight Creative mode moving whilst in Freecam</li>
+<li>Speed hud element not saving Average Time setting</li>
+<li>ExtraChat NameProtect setting</li>
+<li>Fucker Lawn breaking grass blocks</li>
+</ul>
+<h1>Changed</h1>
+<ul>
+<li>Rewrote Nametags</li>
+<li>Rewrote AutoArmor</li>
+<li>Rewrote AutoTotem logic</li>
+<li>Changed AutoTotem delay setting from seconds to ticks</li>
+<li>Made FastBreak Packet Render render progress</li>
+<li>Made *fakeplayer command copy the player's inventory</li>
+<li>Removed version check in hwid algorithm for Linux devices</li>
+<li>Improved Step</li>
+<li>Improved Jesus Strict while riding entities</li>
+<li>Improved AutoCrystal strict rotations</li>
+<li>Renamed NoSwing module to Swing</li>
+<li>Improved consistency of ElytraFly Firework mode</li>
+<li>Made it possible to toggle debuginfo screen while on death screen</li>
+<li>Made AutoFish automatically cast a hook</li>
+<li>Improved NoSlow Web FastFall</li>
+<li>Made SelfBlock not jump if placing a skull</li>
+<li>Made Criticals not work while in webs</li>
+<li>Made Speed AutoSprint only sprint while moving</li>
+<li>Improved Aura PauseBaritone setting</li>
+<li>Improved AutoWalk PauseOnLag setting whilst using Baritone mode</li>
+<li>Made Blink toggle off after death</li>
+<li>Changed icon for Notifications module</li>
+<li>Changed Speed BPS text from "bp/s" to "b/s"</li>
+<li>Made *travel command travel to waypoint Y level</li>
+<li>Aura is now paused while AutoCrystal is targeting</li>
+<li>Search Entities now ignores the entity you are riding</li>
+<li>Made *waypoints list only list waypoints for the current server</li>
+<li>Made *waypoints del only delete waypoints for current server</li>
+<li>Made Spammer In Order mode start from first message when retoggling module</li>
+<li>Replaced Armor Hud element Percentage setting with Durability setting</li>
+<li>Made AutoTool prioritize hotbar items</li>
+<li>Refactored LogoutSpots settings</li>
+<li>Made Speed mode Ground Strafe not work while sneaking</li>
+<li>Made Speed GroundStrafe mode not work while eating</li>
+</ul>
+<h1>Removed</h1>
+<ul>
+<li>ElytraFly2b2t module</li>
+<li>Break Instant setting in AutoCrystal</li>
+</ul>
+<br>
+<br>
+<span class="byline">Changelog - v1.2.2 (July 4th 2021)</span><br><br>
+<h1>Added</h1>
+<ul>
+<li>Added support for Entities in Search</li>
+<li>Added ColorMode setting to Search</li>
+<li>Added OnlineTime HUD element</li>
+<li>Added Mode setting to Xray</li>
+<li>Added Raytrace setting to SourceRemover</li>
+<li>Added Raytrace setting to HoleFiller</li>
+<li>Added SoftReload setting to Xray and Search</li>
+<li>Added OnGroundStrict setting to Speed (makes OnGround only work while in a tunnel</li>
+<li>Added Raytrace setting to AutoTrap</li>
+<li>Added IgnoreTerrain setting to AutoCrystal Place</li>
+<li>Added CaveFinder mode Wireframe and Thickness setting</li>
+<li>Added Filter setting to Hud Notifications</li>
+<li>Added FullBBItems setting to ESP Entities</li>
+<li>Added OnFire setting to NoRender Entities</li>
+<li>Added HeldItem setting to NoRender Entities</li>
+<li>Added module commands to *help</li>
+<li>Added MiscEntities color setting in Colors module</li>
+<li>Added Strict setting to NoSlow Webs</li>
+<li>Added FastFall setting to NoSlow Webs</li>
+<li>Added YLevel setting to Avoid Void</li>
+<li>Added Doubles setting to HoleFiller</li>
+<li>Added Transparency setting to Tracers</li>
+<li>Added Outline sub setting to Search DrawBox setting</li>
+<li>Added Alert setting to Search Entities setting</li>
+<li>Added Sound setting to Search Entities setting</li>
+<li>Added EntityHit setting to Trajectories Target</li>
+<li>Added CutAway setting to CaveFinder</li>
+<li>Added more customizability to InventoryMove</li>
+<li>Added AutoFocus setting to ClickGui SearchBar</li>
+<li>Added per-item color customizablility to Search (5th argument in the *search command for adding blocks with specific colors)</li>
+<li>Added on ground check to SelfBlock</li>
+<li>Added Average setting to Speed HUD element</li>
+<li>Added group setting compatibility to HUD Manager</li>
+<li>Added Milk setting to AutoEat</li>
+<li>Added ability to reset all module settings "*reset all"</li>
+<li>Added Outline setting to FastBreak PacketRender</li>
+<li>Added AutoSwitch setting to FastBreak Packet mode</li>
+</ul>
+<h1>Removed</h1>
+<ul>
+<li>Removed FullBright mode Gamma</li>
+</ul>
+<h1>Fixed</h1>
+<ul>
+<li>Fixed HWID inconsistencies on Linux systems (Requires HWID Reset)</li>
+<li>Fixed NoRender Fog</li>
+<li>Fixed AutoEat sometimes eating multiple golden apples</li>
+<li>Fixed InventoryMove Strict not working whilst sprinting while airborne</li>
+<li>Fixed SelfBlock rubberband rotation</li>
+<li>Fixed Animations AttackBob setting being broken from last update</li>
+<li>Fixed Criticals</li>
+<li>Fixed typo in *xray blocks command</li>
+<li>Fixed AutoWeb appearing to rotate in third person even if rotations are off</li>
+<li>Fixed RichPresence API spam while in queue</li>
+<li>Fixed HorseJump setting in EntityControl</li>
+<li>Fixed EntityDesync crash if toggled on main menu</li>
+<li>Fixed crash with replaymod</li>
+<li>Fixed NoForceRotate Weird mode conflicting with PacketFly</li>
+<li>Fixed PacketFly crashing when disabling on the Main Menu</li>
+<li>Fixed typo in *search blocks command</li>
+<li>Fixed Airborne Trajectories not working for Fireballs</li>
+<li>Fixed Nuker bobbing bug</li>
+<li>Fixed Nuker targeting liquid</li>
+<li>Fixed WaterSpeed going up with space while using Freecam</li>
+<li>Fixed Speed Ground Strafe mode</li>
+<li>Fixed crash when creating module profile with '/' character via window</li>
+<li>Fixed being unable to bind AutoTotem AlternateWhen to MOUSE2</li>
+<li>Fixed InventoryMove Look working while not in a gui</li>
+<li>Fixed Color Picker resetting alpha when changing hue</li>
+<li>Fixed SourceRemover trying to open ender chests</li>
+<li>Fixed HoleFiller sometimes not filling holes near you</li>
+<li>Fixed FeatureList hud element not sorting lower/upper case properly</li>
+<li>Fixed ExtraChest duplicating whitelisted/blacklisted items</li>
+</ul>
+<h1>Changed</h1>
+<ul>
+<li>Rewrote Chams</li>
+<li>Rewrote PacketFly</li>
+<li>Rewrote AutoEat logic (should fix numerous bugs)</li>
+<li>Improved consistency of SelfBlock</li>
+<li>Rewrote TimeStamps</li>
+<li>AutoTrap now places from back to front</li>
+<li>MainMenu shader is now disabled by default if using integrated graphics</li>
+<li>Improved AntiAFK Baritone algorithm</li>
+<li>Refactored Hud Notifications settings</li>
+<li>Changed default modes for ESP</li>
+<li>Improved AutoCrystal Break Raytracing</li>
+<li>Changed command syntax to allow multiple words per argument with quotes</li>
+<li>Replaced NoRender RidingBoat setting with RidingEntity</li>
+<li>Optimized Airborne Trajectories</li>
+<li>Changed Xray logic and added Opacity setting</li>
+<li>Enabled anti-aliasing for RangeCircle</li>
+<li>Made ClickGui search bar more noticeable</li>
+<li>Search Blocks rendering now uses selection box instead of a full block</li>
+<li>Renamed Timer's "Timer Speed" setting to "Speed"</li>
+<li>Improved FastBreak ready detector</li>
+<li>Refactored FastBreak settings</li>
+<li>PacketLogger now uses MCP names</li>
+</ul>
+<br>
+<br>
+<span class="byline">Changelog - v1.2.1 (May 16th 2021)</span><br><br>
+<h1>Added</h1><br>
+<ul>
+<li>Automatic setting to ElytraFly Boost mode (<a href="https://www.youtube.com/watch?v=W5R2BAAQbsI">https://www.youtube.com/watch?v=W5R2BAAQbsI</a>)</li>
+<li>FreeLook module</li>
+<li>Baritone mode to AutoWalk</li>
+<li>PauseOnLag setting to AutoWalk</li>
+<li>LogoutSpots setting to AutoTrap</li>
+<li>AlternateBind setting to AutoTotem</li>
+<li>VerticalSpeed setting to ElytraFly</li>
+<li>Glide Speed setting to ElytraFly</li>
+<li>SpeedLimit setting to Boost ElytraFly</li>
+<li>Upwards setting to Boost ElytraFly</li>
+<li>Outline setting to ClickGui SearchBar</li>
+<li>RequiresAutoCrystal setting to AlternateWhen setting in AutoTotem</li>
+<li>Ability to increment enum settings via command</li>
+<li>UseForward setting to ElytraFly Boost mode</li>
+<li>Pause keybind setting to ElytraFly Boost mode</li>
+<li>AutoRedeploy setting to ElytraFly</li>
+<li>Outline options to AutoCrystal Render settings</li>
+<li>Scale setting to Render Damage setting in AutoCrystal</li>
+<li>*namemc command</li>
+<li>InsideCheck setting to SelfBlock</li>
+<li>ReadyColor setting to FastBreak</li>
+<li>PacketRange setting to FastBreak</li>
+<li>Settings to change scale for each axis on ViewModel</li>
+<li>Setting to toggle offsetting while eating on ViewModel</li>
+<li>RequirePickaxe setting to AutoMine Feet mode</li>
+<li>Double and DoubleColor settings to HoleESP</li>
+<li>FallDistance setting to AutoTotem Health mode</li>
+<li>Color settings to customize CSGO ESP HealthBar</li>
+<li>PauseBaritone setting to Aura</li>
+<li>Items setting to Colors module</li>
+<li>AutoDisconnect metadata on FeatureList</li>
+<li>ESP metadata on FeatureList</li>
+<li>Custom Yaw and Pitch settings for RotationLock</li>
+<li>All subsetting to NoRender Skylight setting</li>
+</ul><br>
+<h1>Removed</h1><br>
+<ul>
+<li>ElytraFly Constantiam setting</li>
+<li>AutoCrystalOld module</li>
+<li>SmallShield (replaced by ViewModel)</li>
+</ul><br>
+<h1>Fixed</h1><br>
+<ul>
+<li>M1 Mac support was fixed by Apple. if you have an M1 Mac make sure you are using the latest update.</li>
+<li>Shader ESP failing to compile on some systems</li>
+<li>AutoTrap targeting freecam entity</li>
+<li>ViewModel FOV not working with Optifine</li>
+<li>FPS lag while using Jesus with particles enabled</li>
+<li>Some crashes when toggling modules from main-menu</li>
+<li>Step settings resetting when launching game</li>
+<li>FastBreak InstantRebreak trying to instantly break bedrock</li>
+<li>NoRender Weather flickering sky bug</li>
+<li>AutoCrystal not targeting people in blocks without bounding boxes</li>
+<li>Notification sound being played at 0,0 in the world</li>
+<li>BaseFinder LlamaThreshold not working</li>
+<li>Friends not saving when removing them via command</li>
+<li>Step Vanilla mode not respecting Upwards setting if disabled</li>
+<li>AutoSurround not toggling immediately when jumping</li>
+<li>Vanilla chunk border rendering while using Freecam</li>
+<li>Chams rendering being buggy when close to a wall</li>
+<li>Bug with AutoEat health mode</li>
+<li>ExtraTab toggle setting rendering below hud elements</li>
+<li>Friends and Enemies not saving after clearing them</li>
+<li>TabGUI gaps from setting groups</li>
+<li>Removing bind from module that is currently bound to a mouse key, to "Mouse0"</li>
+<li>Criticals trying to crit vehicles and other non-living entities</li>
+<li>AutoCrystal appearing to rotate in third person even if Rotate is disabled</li>
+<li>Armor hud element showing negative values when wearing heads</li>
+<li>Compatibility with AutoMine Feet mode and FastBreak Packet mode</li>
+<li>EntitySpeed Strict setting while on snow</li>
+<li>Greeter delay being in milliseconds</li>
+<li>ClickGui SearchBar not being centered when using a gui scale other than 1</li>
+<li>Position hud element sometimes not aligning properly on right side of screen</li>
+</ul>
+<h1>Changed</h1><br>
+<ul>
+<li>Rewrote Installer</li>
+<li>Changed HWID algorithm (if you had a second computer whitelisted you will need to re-whitelist it!)</li>
+<li>Renamed AutoTotem HealthItem setting to AlternateItem</li>
+<li>RotationLock Angles setting is now customizable for both Yaw and Pitch</li>
+<li>Renamed ElytraFly "Strict" setting to "Glide"</li>
+<li>Refactored ElytraFly settings</li>
+<li>Renamed ElytraFly "Spoof" setting to "PitchSpoof"</li>
+<li>Increased ViewClip max Distance to 20</li>
+<li>Refactored ViewModel settings</li>
+<li>Refactored HoleESP settings</li>
+</ul>
+<h1>Security</h1><br>
+<ul>
+<li>Improved</li>
+</ul>
+<br>
+<br>
+<span class="byline">Changelog - v1.2 (April 12th 2021)</span><br><br>
+<h1>Added</h1>
+<ul>
+<li>Pitch setting to ExpFast</li>
+<li>Totempops setting to PvpInfo</li>
+<li>"Both" option to Hud -> Notifications</li>
+<li>[BARITONE] *travel command to travel to rusherhack waypoints</li>
+<li>Mode setting to Spammer with an option to go In Order</li>
+<li>Whisper setting to Spammer</li>
+<li>Viewmodel module</li>
+<li>Morph setting to RangeCircle</li>
+<li>Strict mode to Jesus</li>
+<li>"Both" option to AutoEat mode</li>
+<li>VerticalMultiplier setting to WaterSpeed</li>
+<li>An AccountManager setting to MainMenu module</li>
+<li>Proper scrolling to the clickgui and hud manager</li>
+<li>Hands setting to ViewModel</li>
+<li>*baritone command</li>
+<li>Color setting to Particles</li>
+<li>CSGOHealthWidth setting to ESP</li>
+<li>Setting groups</li>
+<li>Settings for storages into Colors module</li>
+<li>Line smoothing to Trajectories</li>
+<li>AutoDisable setting to AutoFish</li>
+<li>PanelOutline setting to ClickGui module</li>
+<li>YOffset setting to Nametags</li>
+<li>Shulker cache setting to ExtraTooltip</li>
+<li>AbsorptionCheck setting to AutoTotem Health mode</li>
+<li>*enemy command</li>
+<li>ColoredEnemies setting to ExtraTab</li>
+<li>Delay setting to AutoReply</li>
+<li>Instant mode to SelfBlock</li>
+<li>AutoToggle setting to AutoDisconnect</li>
+<li>Proximity setting to AutoDisconnect and moved Crystal setting to it</li>
+<li>OnlyElytra setting to AutoWalk</li>
+<li>Brightness Table mode to FullBright</li>
+<li>MandelBrot main menu shader</li>
+<li>Random setting to ChatAppend</li>
+<li>RealWorld setting to ClientSideTime</li>
+<li>Visibility settings to Particles</li>
+<li>InstantRebreak setting to FastBreak</li>
+<li>EchestHolding setting to Scaffold</li>
+<li>Boost mode to ElytraFly</li>
+<li>*shear command</li>
+<li>Horses setting to AutoMount</li>
+<li>Inventory setting to HotbarReplenish</li>
+<li>IllegalBedrock setting to Search</li>
+<li>GhostFix setting to BlockTweaks</li>
+<li>PacketRender setting to FastBreak packet mode</li>
+<li>predicate checks for FastBreak's settings</li>
+<li>MaxHeight setting to ExtraTab</li>
+<li>Toggle setting to ExtraTab</li>
+<li>Sorting setting to ExtraTab</li>
+<li>OnlyShow setting group to ExtraTab with Friends and Enemies sub settings</li>
+<li>Ping mode setting to ExtraTab</li>
+<li>A lot of Color settings for ExtraTab</li>
+<li>Light setting to ESP</li>
+<li>HideLiquid setting to CaveFinder</li>
+<li>MD5 mode to FancyChat</li>
+<li>Health setting to LogoutSpots</li>
+<li>Time setting to LogoutSpots</li>
+<li>Vanilla mode to Step</li>
+<li>Baritone compatibility to Sprint</li>
+<li>SpinSpeed setting to AntiAim</li>
+<li>FocusCheck setting to AutoReply</li>
+<li>Hard setting to RotationLock</li>
+<li>2nd argument for *reset command which allows you to reset a specific setting</li>
+<li>Background setting to NoRender</li>
+<li>ArmorStand setting to NoRender</li>
+<li>BlockBreak setting to NoRender</li>
+<li>ShulkerHighlight setting to ExtraTooltips</li>
+<li>Support for offline accounts in alt manager (leave password empty)</li>
+<li>Support for Microsoft accounts in alt manager</li>
+<li>List argument to *kit command</li>
+<li>Formatting setting to ExtraChat Mention Highlight</li>
+<li>Friends setting to ExtraChat Mentions <li>Background setting to ExtraChat Mention Highlight</li>
+<li>Strict setting to EntitySpeed</li>
+<li>Only Skulls setting to SelfBlock</li>
+<li>Only EnderChests setting to SelfBlock</li>
+<li>Shield option to HealthItem setting in AutoTotem</li>
+<li>Exclusions Friends setting to AutoIgnore</li>
+<li>PacketRotate setting to FastBreak</li>
+<li>Rotate setting to SelfBlock</li>
+<li>Cobwebs to Scaffold blacklist
+<li>Circles setting to Particles</li>
+<li>SearchBar to the ClickGui</li>
+<li>*hud command</li>
+<li>Packets window to customize packets for AntiPacket and PacketLogger</li>
+<li>Time setting to PacketLogger</li>
+<li>Range setting to Hud Snapping</li>
+<li>AntiDisconnect setting to AutoReconnect</li>
+<li>Queue setting to RichPresence</li>
+<li>Blocks setting to Scaffold</li>
+<li>*scaffold whitelist and *scaffold blacklist command</li>
+</ul>
+<h1>Fixed</h1>
+<ul>
+<li>*waypoints list command not displaying proper co-ordinates</li>
+<li>ExtraChat MentionIgnoreSelf setting not working</li>
+<li>BaseFinder checks using greater than rather than greater than or equals to</li>
+<li>Being able to open rusherhack guis while typing in a book</li>
+<li>FastPlace and ExpFast delay settings </li>
+<li>AntiPacket CPacketPlayer not cancelling subclasses </li>
+<li>Wither head Trajectories still being rendered while Airborne setting is disabled </li>
+<li>BreadCrumbs disappearing after you rubberband </li>
+<li>AutoTool switching to items that have the same effectiveness as your current item </li>
+<li>ElytraFly Vertical Jump option not working in Control mode </li>
+<li>AutoTool attack not working </li>
+<li>Speed module effecting elytrafly speed </li>
+ <li>Autotrap and autosurround not being able to place blocks on blocks that open a gui </li>
+<li>Sneaking in freecam causing the player to dismount their riding entity </li>
+<li>BreakEsp self block only rendering if you are looking at the block </li>
+<li>Autoreconnect bug </li>
+<li>Trajectories inaccuracy on experience bottles </li>
+<li>Trajectories inaccuracy on fishing rods </li>
+<li>Entire hud resetting when there is one malformed setting </li>
+<li>Not being able to configure extrachest drop whitelist/blacklist with commands </li>
+<li>AutoTotem not working in GUIs </li>
+<li>NoSlow not working with AutoWalk </li>
+<li>Noslow not working with Baritone </li>
+<li>AutoTool not factoring in Efficiency enchantment </li>
+<li>Not being able to delete fakeplayers via command </li>
+<li>BlockOutline not outlining correct block while in freecam </li>
+<li>BlockOutline Depth setting and renamed it to DepthMask </li>
+<li>Entity interpolation on first tick </li>
+<li>Freecam rotating when trying to place/break blocks that are too far away from the player </li>
+<li>Search tracers bobbing if view bobbing is enabled </li>
+<li>Particles color leak </li>
+<li>AutoExp not working with non-english languages</li>
+<li>AntiHunger while mining</li>
+<li>Color leak in RangeCircle</li>
+<li>Nametags not displaying "max" for max enchanted elytra</li>
+<li>Clickgui and windows opening in guis that you don't want them to open in</li>
+<li>Autowalk walking the freecam player if riding an entity</li>
+<li>Tracers lighting bug</li>
+<li>Tracers being slightly off while view bobbing is enabled</li>
+<li>Freecam entity not showing absorption hearts of player</li>
+<li>MobOwner lagging game if the uuid is invalid</li>
+<li>NoGlitchBlocks breaking Scaffold</li>
+<li>AutoMine not working in GUIs and a Focused setting to change this</li>
+<li>BlockOutline causing vanilla chunk borders to be gray</li>
+<li>AutoTunnel attempting to mine liquid</li>
+<li>BlockOutline not working while in water</li>
+<li>SelfBlock not working with blocks over your head</li>
+<li> AutoTool attacking sand and gravel</li>
+<li>SelfBlock inconsistencies</li>
+<li>Inventory hud element items rendering over player list</li>
+<li>Aura attacking the entity you were riding</li>
+<li>NoFall bucket mode trying to place water in the nether</li>
+<li>*breed command not working with horses/donkeys</li>
+<li>Greeter delay</li>
+<li>NoRender Scoreboard setting</li>
+<li>FastBreak Packet mode breaking if you try to mine Bedrock</li>
+<li>LogoutSpots saying you have logged out if you went through 2b2t queue</li>
+<li>ExtraChat Mention Highlight resetting formatting</li>
+<li>CSGO Esp held item text not scaling properly to TextScale setting</li>
+<li>*kit delete creating a new kit</li>
+<li>not being able to open AntiPacket GUI in 2b2t queue</li>
+<li>ElytraFly InstantFly Timer mode slowing you down while in liquid</li>
+<li>AutoSurround not working properly while standing on an ender chest</li>
+<li>AutoEat not working while in guis</li>
+<li>AutoEat mode Both hunger taking priority</li>
+<li>Avoid Void setting not working while in liquid</li>
+<li>Not being able to add signs to Search</li>
+<li>Scaffold rendering state leak</li>
+<li>Typo in Strength detect in PvpInfo</li>
+<li>Typo in ExtraChest command</li>
+</ul>
+<h1>Changed</h1>
+<ul>
+<li>Rewrote AutoCrystal</li>
+<li>Rewrote ESP</li>
+<li>Strict Jesus now works better with entities</li>
+<li>Improved speed hud element</li>
+<li>Keybinds no longer toggle while holding F3</li>
+<li>Console output now gets logged to a file</li>
+<li>ClickGui VisiblePredicate is now enabled by default</li>
+<li>Raised fov slider max to 160</li>
+<li>Revamped HitboxIgnore settings</li>
+<li>Search Tracers now use the thickness defined in the Tracers module</li>
+<li>Rewrote color picker and color setting</li>
+<li>LogoutSpots now clear when the module is toggled</li>
+<li>HUD editor manager now uses same scale as clickgui</li>
+<li>HUD editor manager now uses same font as ClickGui</li>
+<li>Changed default settings for AntiAfk</li>
+<li>Improved PotionEffects hud element formatting</li>
+<li>Improved Avoid Void setting</li>
+<li>Separated Llamas from the Donkeys setting in BaseFinder</li>
+<li>Reduced BaseFinder notification spam</li>
+<li>Made AutoExp rotate silently</li>
+<li>Improved strict setting under Criticals</li>
+<li>Replaced Box setting in Trajectories with Target setting with more customizablility</li>
+<li>*clear command now clears chat if typed from chat</li>
+<li>Optifine fast render is now disabled while using ESP to prevent rendering issues</li>
+<li>Improved Scaffold (now works with carpet and slabs)</li>
+<li>Made it so AutoTotem on Health mode switches back to a totem while falling more than 8 blocks</li>
+<li>Maybe fix weird esp optifine crash?</li>
+<li>Clamped TPS Sync in Timer module to prevent freezing</li>
+<li>Improved InventoryMove strict setting</li>
+<li>Nametags for friends now use transparency of the color setting</li>
+<li>Improved PingSpoof</li>
+<li>"/" now gets stripped from config names when creating a new config</li>
+<li>Rewrote binding system; you can now easily bind mouse keys to modules and macros</li>
+<li>Color picker preview no longer displays transparency</li>
+<li>Rewrote Step logic</li>
+<li>Enabled keyboard repeat events in tabgui</li>
+<li>Refactored NoRender settings</li>
+<li>Refactored ExtraChat mention settings</li>
+<li>Renamed ExtraChat "MentionIgnoreSelf" setting to "IgnoreSelfMsgs"</li>
+<li>Reduce amount of blocks that AutoTrap places</li>
+<li>Improved AutoTrap Minimal mode</li>
+<li>Made AutoMount donkey setting work with mules</li>
+<li>Improved AutoSurround Until Move mode</li>
+<li>HUD text alignment is now based on the quadrant the hud element is in, rather than the corner</li>
+<li>LogoutSpots now removes players if they log back in and you are not in their render distance</li>
+<li>Made WaterSpeed not work while elytra flying</li>
+<li>Renamed ClickGui setting "MaxPanelHeight" to "MaxHeight"</li>
+<li>*fakeplayer del command is no longer case sensitive</li>
+<li>Startup sounds are now randomly selected from StartupSounds folder</li>
+</ul>
+<h1>Removed</h1>
+<ul>
+<li>Removed delay on AutoExp</li>
+<li>Removed Seeker</li>
+<li>Removed AimAssist</li>
+<li>Removed ClickTP</li>
+<li>Removed HideCommon setting from PacketLogger</li>
+<li>Removed *antipacket gui</li>
+</ul>
+<h1>Security</h1><br>
+<ul>
+<li>Improved</li>
+</ul>
+<br>
+<br>
+<span class="byline">Changelog - v1.1.3 (December 6th 2020)</span><br><br>
+<h1>Added</h1><br>
+<ul>
+<li>ElytraFly mode Firework</li>
+<li>NoSlow 2b2t setting (glitchy sometimes)</li>
+<li>Particles module</li>
+<li>ExtraChat CustomFont setting</li>
+<li>AntiAFK setting to ElytraFly for Packet mode</li>
+<li>Gapples setting to HotbarReplenish</li>
+<li>Fireworks setting to HotbarReplenish</li>
+<li>FeatureList hud element Case setting</li>
+<li>BreakESP FillMode setting</li>
+<li>HoleESP void settings</li>
+<li>BoatFly ToggleOnDisconnect setting</li>
+<li>WaterSpeed Lava and LavaMultiplier settings</li>
+<li>FullBright Gamma number setting</li>
+<li>Freecam Rotate setting</li>
+<li>PacketLogger HideCommon setting</li>
+<li>"Add" button to alt manager</li>
+<li>[PLUS] Added EntityTeleportation setting to CoordLogger</li>
+</ul><br>
+<h1>Fixed</h1><br>
+<ul>
+<li>InventoryMove Strict setting</li>
+<li>Crash from main menu shader failing to compile on some systems</li>
+<li>ElytraFly packet mode not working as intended</li>
+<li>Not being able to use hand while riding boat with BoatFly</li>
+<li>Aura not working while riding</li>
+<li>Wither Skeletons not being detected as a hostile mob</li>
+<li>Fucker Lawn setting not working on grass</li>
+<li>Freecam not updating Direction hud element</li>
+<li>Waypoints color leak</li>
+<li>Waypoint beam not being accurate cross dimension</li>
+<li>Friends not saving bug from last patch</li>
+<li>AutoTunnel trying to break Bedrock</li>
+<li>High speed gain from using Speed Strafe while sneaking</li>
+</ul>
+<h1>Changed</h1><br>
+<ul>
+<li>BoatFly no longer turns while strafing left/right</li>
+<li>ExtraChest now works in non-chest containers</li>
+<li>Optimized RangeCircle rendering</li>
+<li>".0" is now hidden from the end of sliders in the ClickGui</li>
+<li>When ClickGui's are first instantiated the panels now start from the far right to help people with small resolution monitors</li>
+<li>Neutral pigmen check is more accurate</li>
+<li>BreakESP now uses Interpolation for smooth rendering</li>
+<li>Rewrote WaterSpeed</li>
+</ul>
+<br>
+<br>
+<span class="byline">Changelog - v1.1.2 (November 10th 2020)</span><br><br>
+<h1>Added</h1><br>
+<ul>
+<li>Criticals "Strict" setting</li>
+<li>Reset command alias "default"</li>
+<li>Waypoints "Vertical" setting</li>
+<li>ExtraChat "MentionIgnoreSelf" setting</li>
+<li>NoRender "RidingBoat" setting</li>
+<li>BoatFly "BoatScale" setting</li>
+<li>NoRender "FallingBlocks" setting</li>
+<li>NoRender "TileEntities" setting</li>
+<li>Interpolation to ClickGui sliders</li>
+<li>Inperpolation to ClickGui colors</li>
+<li>Baritone module "FreeLook" setting</li>
+<li>Baritone module "LogOnArrival" setting</li>
+<li>BoatFly "ConsecutiveLagBacks" setting (UNTESTED; setting it to 0 disables it)</li>
+<li>PvpInfo "32k Detect" setting</li>
+<li>HoleESP "CityRange" setting, for use with "CityESP"</li>
+<li>"OFF" option to Hud Notifications</li>
+<li>LogoutSpots "CustomFont" setting</li>
+<li>Waypoints "CustomFont" setting</li>
+<li>Second argument to toggle command to be able to specify whether you want the module to be enabled or disabled</li>
+<li>*watermark command</li>
+</ul><br>
+<h1>Fixed</h1><br>
+<ul>
+<li>Compatibility with Konas</li>
+<li>ExtraTab compatibility when using other clients with ExtraTab</li>
+<li>Button issue on MainMenu</li>
+<li>HoleESP FrustumCheck setting</li>
+<li>Corrupted configs while shutting down (I think)</li>
+<li>IP hud element not showing the server's ip if there was no port</li>
+<li>Rendering issues when not using Baritone</li>
+<li>Diagonal speed gain issue in Speed "Strafe"</li>
+<li>Console IndexOutOfBoundsException crash</li>
+<li>RotationLock not working in vehicles</li>
+<li>Mac users having to grant desktop access</li>
+<li>*kit command</li>
+<li>AutoWalk not working in vehicles</li>
+<li>Freecam causing kicks when using BoatFly</li>
+<li>LogoutSpots doubling</li>
+<li>Freecam mode "New" not using the player's health</li>
+<li>Custom Watermark not saving correctly</li>
+</ul>
+<h1>Changed</h1><br>
+<ul>
+<li>Save/load errors are now logged to "error_log.txt" file</li>
+<li>Rewrote most render methods</li>
+<li>Moved StartupSound setting from Hud to MainMenu module</li>
+<li>[PLUS] Rewrote MapReset</li>
+</ul>
+<br>
+<br>
+<span class="byline">Changelog - v1.1.1 (October 31st 2020)</span><br><br>
+<h1>Added</h1><br>
+<ul>
+<li>2b2t bypassing BoatFly setting "Strict" has been added to the normal version of the client</li>
+<li>CityESP setting to HoleESP</li>
+<li>Toggleable startup sound</li>
+<li>Ability to change the watermark text</li>
+<li>Height setting to NewChunks</li>
+<li>Depth setting to BlockOutline</li>
+<li>FillColorMode setting to Chams</li>
+<li>MacroList hud element</li>
+<li>PlayersOnly setting to EntityList hud element</li>
+</ul><br>
+<h1>Fixed</h1><br>
+<ul>
+<li>AutoWeb</li>
+<li>Waypoints rendering cross dimension</li>
+<li>Fixed BaseFinder not working in boats</li>
+<li>SelfBlock still jumping if no blocks were in your hotbar</li>
+<li>HoleFiller trying to place blocks in holes players were in</li>
+<li>DeathFilter crash</li>
+<li>NullPointer crash in ClientSideTime</li>
+<li>FullBright not working correctly in vehicles</li>
+<li>Window and ClickGui blur not working on custom main menu</li>
+<li>403 SSL issue when using some clients alongside rusherhack</li>
+<li>Failed to compile shader crash (hopefully)</li>
+<li>Main Menu shader breaking under certain conditions</li>
+<li>Bug where resizing minecraft window while using a rusherhack gui would not resize parent gui</li>
+</ul>
+<h1>Changed</h1><br>
+<ul>
+<li>[PLUS] Improved BowBomb</li>
+<li>Updated FAQ url on introduction screen</li>
+</ul>
+<br>
+<br>
+<span class="byline">Changelog - v1.1 (October 24th 2020)</span><br><br>
+<h1>Added</h1><br>
+<ul>
+<li>Loader now auto updates</li>
+<li>LongJump module</li>
+<li>AutoWeb module</li>
+<li>SelfBlock module</li>
+<li>ClientSideTime module</li>
+<li>Animations module</li>
+<li>DeathFilter module</li>
+<li>GlobalColors module to manage colors that multiple modules use</li>
+<li>Window system, you can use them in the Windows module</li>
+<li>Alt Manager window</li>
+<li>Console window</li>
+<li>Friend Manager window</li>
+<li>Ability to have multiple module profiles, *config command or the Profiles window</li>
+<li>*clear command</li>
+<li>*chat command</li>
+<li>*reloadsounds command</li>
+<li>New main menu shaders</li>
+<li>*reset command</li>
+<li>Comma setting to Position hud element</li>
+<li>Wither skulls to airborne Trajectories</li>
+<li>2D mode to Tracers</li>
+<li>VisiblePredicate setting to ClickGui module (removes some settings if they are not used with your other settings)</li>
+<li>HealthItem setting to AutoTotem (offhand crystal)</li>
+<li>Strict setting to NoSwing</li>
+<li>Web setting to Avoid</li>
+<li>SetDead setting to AutoCrystal</li>
+<li>BreakHand setting to AutoCrystal</li>
+<li>1.13+ setting to AutoCrystal</li>
+<li>Sync setting to AutoCrystal</li>
+<li>RandomMultiplier setting to AutoCrystal</li>
+<li>DeadTimeout setting to AutoCrystal</li>
+<li>Constantiam setting to ElytraFly</li>
+<li>Verbose setting to PacketLogger</li>
+<li>Shulker setting to ExtraTooltips</li>
+<li>[plus exlusive] Strict setting to BoatFly</li>
+<li>Size parameter to the customfont command</li>
+<li>Custom ttf file support to customfont command</li>
+<li>Value Alignment setting to the ClickGui module</li>
+<li>Rainbow setting to Trajectories</li>
+<li>Rainbow setting to Crosshair</li>
+<li>Save setting to ExtraScreenshot</li>
+<li>TotemCheck setting to AutoDisconnect</li>
+<li>HideF1 setting to Nametags</li>
+<li>FixYaw setting to BoatFly</li>
+<li>DropMode setting to ExtraChest</li>
+<li>ColorMode setting to PotionEffects hud element</li>
+<li>Forward setting to PlayerView hud element</li>
+<li>Port setting to Server IP hud element</li>
+<li>TotemPop setting to Notifications module</li>
+<li>OutlineThickness setting to Nametags</li>
+<li>Self setting to Nametags</li>
+<li>Range setting to Nametags</li>
+<li>Vanilla option to Speed mode</li>
+<li>PauseWhileEating setting to Aura</li>
+<li>RandomDelay setting to Spammer</li>
+<li>IgnoreSelf setting to BreakESP</li>
+<li>Scale setting to LogoutSpots</li>
+<li>Scale setting to Waypoints</li>
+<li>Scale setting to Hitmarkers</li>
+<li>Space setting to GreenText</li>
+<li>ElytraCheck setting to BaseFinder</li>
+<li>BuildHeight setting to BlockTweaks</li>
+<li>Resume setting to BaseFinder</li>
+<li>Notification setting to BaseFinder</li>
+<li>Texture setting to Chams</li>
+<li>/stats setting to AntiAFK</li>
+<li>Profile hud element</li>
+</ul><br>
+<h1>Removed</h1><br>
+<ul>
+<li>Source-styled console</li>
+<li>AutoDisconnect NoTotem setting</li>
+<li>ClassNotFoundException print if Baritone is not found</li>
+</ul><br>
+<h1>Fixed</h1><br>
+<ul>
+<li>Main menu buttons appearing to be hovered over if you have a gui open</li>
+<li>*spammerfile command not printing usage correctly</li>
+<li>NoFall Packet mode</li>
+<li>Missing enchant glint when using Chams Color mode</li>
+<li>Chams not rendering items correctly</li>
+<li>Flickering sky when using the Weather setting in NoRender</li>
+<li>AutoTrap macro mode not disabling if your target left your range</li>
+<li>AutoNametag whitelist clear command clearing blacklist instead of whitelist</li>
+<li>BaseFinder travel mode off still autowalking</li>
+<li>LagDetector not abiding by the hud's customfont setting</li>
+<li>LogoutSpots module not serializing properly when saving</li>
+<li>ESP Csgo mode's armor not showing up if you are near a player in Freecam</li>
+<li>AutoCrystal targeting dead players</li>
+<li>ElytraFly pausing while using Freecam</li>
+<li>EntityControl NoPigAI stopping vertical movement</li>
+<li>Hitmarkers not working while using Aura</li>
+<li>ESP Boxes mode not using correct colors</li>
+<li>Being able to move the player while in Freecam with some Baritone actions</li>
+<li>Duplicating ClickGui</li>
+<li>AutoTool not using swords</li>
+<li>Timer not resetting sometimes while using Step Timer</li>
+<li>Step Timer lasting longer than it should</li>
+<li>Rare null pointer crash in the Ping hud element</li>
+<li>Greeter disabling after leaving a server</li>
+</ul>
+<h1>Changed</h1><br>
+<ul>
+<li>Rewrote the Garry's mod notifications, they are much smoother and don't desync</li>
+<li>Nametags CustomFont setting now works if you have the hud's customfont disabled</li>
+<li>Made module config save when you close the ClickGui</li>
+<li>You can open guis anywhere in the game now, example: in the server list</li>
+<li>Improved ClickGui blur</li>
+<li>Improved performance of ESP Outline mode</li>
+<li>Improved WaterSpeed</li>
+<li>Made PacketLogger disable on disconnect</li>
+<li>Setting values in the ClickGui are now light gray</li>
+<li>Rewrote Chams Wireframe mode</li>
+<li>Position hud element shows coordinates of render view entity instead of the player (now shows coords while using Freecam)</li>
+<li>LogoutSpots now get removed once the player logs back in</li>
+<li>AutoMine Exposed mode now checks if the block above is air</li>
+<li>Default Chams mode is now Fill</li>
+<li>*modules command now has darker colors if the module is not drawn in the FeatureList</li>
+<li>Long text in the ClickGui scrolls</li>
+<li>ClickGui clamp now only affects the X axis</li>
+<li>Cape users are now retrieved on another thread</li>
+<li>Renamed "Void" setting in Avoid to "Unloaded"</li>
+<li>Added void setting to Avoid which flags the anticheat if you are about to fall in the void</li>
+<li>Enabled keyboard repeating in console</li>
+</ul>
+<h1>Security</h1><br>
+<ul>
+<li>Improved</li>
+</ul>
+<br><br><br>
+<a href="old-changelog.html">View Old Changelogs</a>
+</div>
+</div>
+</div>
+</body>
+</html>
