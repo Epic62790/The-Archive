@@ -67,6 +67,10 @@ How do I...
 
 </details>
 
+# Need extra help?
+https://github.com/RusherDevelopment/rusherhack-issues/wiki
+https://github.com/RusherDevelopment/rusherhack-issues
+
 ## Thanks to...
 
 [Lambda for the README template I used for this](https://github.com/lambda-client/)
