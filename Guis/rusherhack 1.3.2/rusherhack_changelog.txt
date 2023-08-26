@@ -1,0 +1,82 @@
+fixed mobowner
+improved RotationLock Hard setting
+
+fixed Hud modulecommandoutput bug
+
+fixed vanilla lag from loading a large amount of unicode characters
+
+added ability to specify items by name in ExtraChest
+
+added StripBlankLines setting to ExtraChat
+added ShiftClick setting to XCarry
+
+switched to device-code flow for microsoft account authentication in the account manager
+
+fixed Nuker not being able to break crops/flowers
+fixed crash that could happen in Saturation hud element
+fixed bug in potion effect hud element positioning; same thing as issue #1341
+fixed bug with antihunger
+
+fixed bug in AntiQuit module
+fixed bug in *openfolder command
+added "MacroOutput" setting to Hud Notifications
+replaced Private setting in Greeter with ClientSide setting with option to change where they are displayed
+added Coordinates setting to AutoDisconnect Proximity; you can set coordinates using *autodisconnect coordinates <x> <z>
+
+added Fill mode to NewChunks
+fixed HotbarReplenish attempting to refill items with a different name
+fixed AutoTunnel Baritone mode stopping after 100 blocks
+
+added Filter setting to Greeter
+changed Greeter clientside chat color to light gray
+
+added Frequency setting to Colors Rainbow Settings
+Hud Similar Filter now filters notifications from visual range
+added Others setting to DeathFilter DeathSound
+added Waypoints window
+
+fixed Search bug
+added ability to toggle specific waypoints
+
+fixed autosorter content mode
+added Info setting to Notifications InGame setting
+
+fixed AutoMount trying to mount non-empty minecarts
+fixed crash in AutoSorter
+
+fixed Crosshair bug
+fixed Velocity not canceling fishing rod pull
+added Constant Rotate mode to Scaffold
+fixed Scaffold desync issue on 2b2t that could happen on high ping
+
+fixed Step trying to step up blocks it shouldn't when Avoid is enabled
+added ability to search for specific recipes in *recipe list command
+rewrote SourceRemover module, much more consistent
+
+fixed Safewalk compatibility with Speed module
+added PauseBaritone setting to SourceRemover
+added Strict setting to Scaffold Tower setting
+
+added Slabs setting to Safewalk
+added WallRange setting to SourceRemover
+
+added Off mode to AutoSorter Selection setting
+added Durability setting to AutoTool
+added Sway setting to ViewModel
+
+added ItemFrames setting to NoRender Entities
+added Differenciate mode to the interdimensional setting in the Position hud element
+
+fixed deadlocks that made the game freeze while loading
+added Hoppers setting to ExtraChest Containers
+fixed crash from discord rich presence on some computers
+added Item sort mode to AutoSorter
+added FillInventory setting to AutoSorter
+improved AutoArmor; it should no longer close elytras
+rewrote AutoTool logic
+added Delay setting to AutoTool
+
+fixed hwid algorithm on ARM based MacOS devices (M1/M2)
+
+added RestartDelay setting to ElytraFly2b2tNew
+added Distance setting to ElytraFly2b2tNew ObstaclePasser
