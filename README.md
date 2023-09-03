@@ -68,7 +68,7 @@ How do I...
 </details>
 
 # Need extra help?
-[RusherHack Wiki](https://github.com/RusherDevelopment/rusherhack-issues/wiki)
+[RusherHack Wiki](https://github.com/RusherDevelopment/rusherhack-issues/wiki) # !!! NOW DELETED !!!
 
 [RusherHack Issues](https://github.com/RusherDevelopment/rusherhack-issues)
 
