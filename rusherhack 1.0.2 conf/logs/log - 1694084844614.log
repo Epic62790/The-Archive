@@ -1,0 +1,77 @@
+[2023-09-07 07:07:28] Starting macro manager
+[2023-09-07 07:07:29] Loading cape users
+[2023-09-07 07:07:29] RusherHack Started
+[2023-09-07 07:07:47] §aHINT: The default gui keybind is P
+[2023-09-07 07:09:35] §aINFO: Particles has been enabled
+[2023-09-07 07:12:01] Please change the gui scale by typing *clickgui scale <scale>
+[2023-09-07 07:12:02] Please change the gui scale by typing *clickgui scale <scale>
+[2023-09-07 07:12:14] > clickgui scale 0.5
+[2023-09-07 07:12:14] Setting Scale changed to 0.5
+[2023-09-07 07:12:14] Setting Scale changed to 0.5
+[2023-09-07 07:12:21] > clickgui scale 0.4
+[2023-09-07 07:12:21] Setting Scale changed to 0.4
+[2023-09-07 07:12:21] Setting Scale changed to 0.4
+[2023-09-07 07:12:26] > clickgui scale 0.6
+[2023-09-07 07:12:26] Setting Scale changed to 0.6
+[2023-09-07 07:12:26] Setting Scale changed to 0.6
+[2023-09-07 07:12:30] > clickgui scale 0.7
+[2023-09-07 07:12:30] Setting Scale changed to 0.7
+[2023-09-07 07:12:30] Setting Scale changed to 0.7
+[2023-09-07 07:12:55] > clickgui scale 0.5
+[2023-09-07 07:12:55] Setting Scale changed to 0.5
+[2023-09-07 07:12:55] Setting Scale changed to 0.5
+[2023-09-07 07:13:28] §aINFO: NoRender has been enabled
+[2023-09-07 07:14:15] §aINFO: FullBright has been enabled
+[2023-09-07 07:15:31] §aINFO: LagReducer has been enabled
+[2023-09-07 07:15:57] §aINFO: RichPresence has been enabled
+[2023-09-07 07:16:12] §aINFO: RichPresence has been disabled
+[2023-09-07 07:16:12] §aINFO: RichPresence has been enabled
+[2023-09-07 07:37:47] §aHINT: You can change the HUD with the HUD editor, press COMMA
+[2023-09-07 07:59:49] §aINFO: PortalGui has been enabled
+[2023-09-07 08:00:40] §aINFO: LagReducer has been disabled
+[2023-09-07 08:00:48] §aINFO: LagReducer has been enabled
+[2023-09-07 08:03:00] §aINFO: Waypoints has been enabled
+[2023-09-07 08:03:03] §aINFO: NoMineAnimation has been enabled
+[2023-09-07 08:03:04] §aINFO: NewChunks has been enabled
+[2023-09-07 08:03:05] §aINFO: NoGlitchBlocks has been enabled
+[2023-09-07 08:03:06] §aINFO: MobOwner has been enabled
+[2023-09-07 08:03:08] §aINFO: LiquidInteract has been enabled
+[2023-09-07 08:03:09] §aINFO: ForcePlace has been enabled
+[2023-09-07 08:03:11] §aINFO: FastPlace has been enabled
+[2023-09-07 08:03:12] §aINFO: FastPlace has been disabled
+[2023-09-07 08:03:12] §aINFO: FastPlace has been enabled
+[2023-09-07 08:03:13] §aINFO: FastBreak has been enabled
+[2023-09-07 08:03:14] §aINFO: Environment has been enabled
+[2023-09-07 08:03:15] §aINFO: CoordLogger has been enabled
+[2023-09-07 08:03:16] §aINFO: ClientSideTime has been enabled
+[2023-09-07 08:03:17] §aINFO: BlockTweaks has been enabled
+[2023-09-07 08:03:17] §aINFO: BaseFinder has been enabled
+[2023-09-07 08:03:17] Turning WEST
+[2023-09-07 08:03:18] §aINFO: BaseFinder has been disabled
+[2023-09-07 08:03:19] §aINFO: Avoid has been enabled
+[2023-09-07 08:03:20] §aINFO: AutoTunnel has been enabled
+[2023-09-07 08:03:21] §aINFO: AutoTunnel has been disabled
+[2023-09-07 08:03:23] §aINFO: BlockOutline has been enabled
+[2023-09-07 08:03:24] §aINFO: Borders has been enabled
+[2023-09-07 08:03:24] §aINFO: BossStack has been enabled
+[2023-09-07 08:03:25] §aINFO: BreadCrumbs has been enabled
+[2023-09-07 08:03:25] §aINFO: BreakESP has been enabled
+[2023-09-07 08:03:26] §aINFO: CaveFinder has been enabled
+[2023-09-07 08:03:27] §aINFO: Crosshair has been enabled
+[2023-09-07 08:03:28] §aINFO: Chams has been enabled
+[2023-09-07 08:03:32] §aINFO: CaveFinder has been disabled
+[2023-09-07 08:03:35] §aINFO: ESP has been enabled
+[2023-09-07 08:03:36] §aINFO: Hitmarkers has been enabled
+[2023-09-07 08:03:37] §aINFO: HoleESP has been enabled
+[2023-09-07 08:03:38] §aINFO: LogoutSpots has been enabled
+[2023-09-07 08:03:38] §aINFO: Nametags has been enabled
+[2023-09-07 08:03:39] §aINFO: RainbowEnchant has been enabled
+[2023-09-07 08:03:40] §aINFO: RangeCircle has been enabled
+[2023-09-07 08:03:41] §aINFO: Search has been enabled
+[2023-09-07 08:03:41] §aINFO: Tracers has been enabled
+[2023-09-07 08:03:42] §aINFO: Trajectories has been enabled
+[2023-09-07 08:03:44] §aINFO: ViewClip has been enabled
+[2023-09-07 08:03:44] §aINFO: Xray has been enabled
+[2023-09-07 08:03:45] §aINFO: ViewModel has been enabled
+[2023-09-07 08:03:46] §aINFO: Xray has been disabled
+[2023-09-07 08:04:39] RusherHack Stopped

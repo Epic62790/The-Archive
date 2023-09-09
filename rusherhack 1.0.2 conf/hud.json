@@ -1,0 +1,249 @@
+[
+  {
+    "name": "Watermark",
+    "toggled": true,
+    "x": 1,
+    "y": 1,
+    "snap-point": "TOP_LEFT",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "FeatureList",
+    "toggled": true,
+    "x": 871,
+    "y": 1,
+    "snap-point": "TOP_RIGHT",
+    "color": "-16711681",
+    "rainbow": "true",
+    "metadata": "true"
+  },
+  {
+    "name": "Armor",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "percentage": "false",
+    "axis": "X"
+  },
+  {
+    "name": "FPS",
+    "toggled": true,
+    "x": 1,
+    "y": 11,
+    "snap-point": "TOP_LEFT",
+    "frameupdate": "true",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "EntityList",
+    "toggled": false,
+    "x": 100,
+    "y": 200,
+    "snap-point": "none",
+    "max": "9",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "Hunger",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "Saturation",
+    "toggled": false,
+    "x": 150,
+    "y": 100,
+    "snap-point": "none",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "Inventory",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "texture": "OFF"
+  },
+  {
+    "name": "Position",
+    "toggled": true,
+    "x": 1,
+    "y": 515,
+    "snap-point": "BOTTOM_LEFT",
+    "axis": "X",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "Speed",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "measurement": "BPS",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "PotionEffects",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "TPS",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "IP",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "ServerBrand",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "Ping",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "PlayerCount",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "PlayerView",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "scale": "1.0"
+  },
+  {
+    "name": "Time",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "format": "TWELVE",
+    "seconds": "true",
+    "am/pm": "true",
+    "label": "false",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "Keystrokes",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "scale": "1.0",
+    "mousebuttons": "true",
+    "spacebutton": "true",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "BindList",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "color": "-65536",
+    "rainbow": "false"
+  },
+  {
+    "name": "Biome",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "Direction",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "yaw": "true",
+    "pitch": "true",
+    "facing": "true",
+    "axis": "X",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "Memory",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "Durability",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "none",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "TabGui",
+    "toggled": false,
+    "x": 100,
+    "y": 100,
+    "snap-point": "TOP_LEFT",
+    "useenter": "true",
+    "color": "-16711681",
+    "rainbow": "true"
+  },
+  {
+    "name": "Manager",
+    "toggled": true,
+    "x": 247,
+    "y": 12,
+    "snap-point": "none"
+  }
+]

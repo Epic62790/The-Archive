@@ -1,0 +1,17 @@
+[
+  {
+    "walking": "I just moved [distance] feet!",
+    "block break": "I just broke [number] [block]!",
+    "block place": "I just placed [number] [block]!",
+    "pickup": "[player] just picked up [number] [item]!",
+    "experience": "[player] just got [number] XP!",
+    "eating": "[player] just ate a [item]!",
+    "drinking": "[player] just drunk a [item]!",
+    "day": "It\u0027s a nice day outside!",
+    "noon": "It is now noon!",
+    "sunset": "What a beautiful sunset!",
+    "night": "Good night!",
+    "midnight": "It\u0027s the opposite of noon!",
+    "sunrise": "Monsters are now burning!"
+  }
+]

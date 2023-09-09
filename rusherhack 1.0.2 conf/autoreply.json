@@ -1,0 +1,7 @@
+[
+  {
+    "trigger text": "whispers:",
+    "friend text": "/msg [name] Hello friend!",
+    "non friend text": "/msg [name] Who are you? Are you relevant enough to be telling me such things?"
+  }
+]

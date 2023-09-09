@@ -1,0 +1,12 @@
+[2023-09-07 07:05:32] Created module-profile config at /home/harper/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.12.2/.minecraft/rusherhack/module-profile.json
+[2023-09-07 07:05:32] Created items config at /home/harper/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.12.2/.minecraft/rusherhack/HotbarReplenish/items.json
+[2023-09-07 07:05:33] Created drop_whitelist config at /home/harper/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.12.2/.minecraft/rusherhack/ExtraChest/drop_whitelist.json
+[2023-09-07 07:05:33] Created drop_blacklist config at /home/harper/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.12.2/.minecraft/rusherhack/ExtraChest/drop_blacklist.json
+[2023-09-07 07:05:34] Created whitelist config at /home/harper/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.12.2/.minecraft/rusherhack/InventoryCleaner/whitelist.json
+[2023-09-07 07:05:34] Created blacklist config at /home/harper/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.12.2/.minecraft/rusherhack/InventoryCleaner/blacklist.json
+[2023-09-07 07:05:34] Created entities config at /home/harper/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.12.2/.minecraft/rusherhack/Search/entities.json
+[2023-09-07 07:05:34] Created blocks config at /home/harper/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.12.2/.minecraft/rusherhack/Scaffold/blocks.json
+[2023-09-07 07:05:34] §4null null
+[2023-09-07 07:05:34] Starting macro manager
+[2023-09-07 07:05:35] Loading cape users
+[2023-09-07 07:05:35] RusherHack Started

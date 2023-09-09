@@ -1,0 +1,22 @@
+[
+  [
+    "minecraft:anvil",
+    "minecraft:air",
+    "minecraft:water",
+    "minecraft:fire",
+    "minecraft:flowing_water",
+    "minecraft:lava",
+    "minecraft:flowing_lava",
+    "minecraft:chest",
+    "minecraft:anvil",
+    "minecraft:enchanting_table",
+    "minecraft:chest",
+    "minecraft:gravel",
+    "minecraft:web"
+  ],
+  [
+    "minecraft:stone",
+    "minecraft:cobblestone",
+    "minecraft:obsidian"
+  ]
+]

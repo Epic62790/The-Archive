@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Alt Manager",
+    "visible": false,
+    "x": 50,
+    "y": 50,
+    "width": 250,
+    "height": 200
+  },
+  {
+    "name": "Friend Manager",
+    "visible": false,
+    "x": 65,
+    "y": 65,
+    "width": 150,
+    "height": 150
+  },
+  {
+    "name": "Module Profiles",
+    "visible": false,
+    "x": 65,
+    "y": 65,
+    "width": 150,
+    "height": 150
+  },
+  {
+    "name": "Packets",
+    "visible": false,
+    "x": 100,
+    "y": 100,
+    "width": 200,
+    "height": 200
+  },
+  {
+    "name": "Console",
+    "visible": true,
+    "x": 75,
+    "y": 75,
+    "width": 250,
+    "height": 250
+  }
+]
