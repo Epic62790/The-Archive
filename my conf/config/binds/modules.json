@@ -1,0 +1,566 @@
+[
+  {
+    "bindable": "feature_module_toggle_capes",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_clickgui",
+    "key": "KEY_P"
+  },
+  {
+    "bindable": "feature_module_toggle_customfont",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_hud",
+    "key": "KEY_COMMA"
+  },
+  {
+    "bindable": "feature_module_toggle_announcer",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_armoralert",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_autoreply",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_chatappend",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_chatcolors",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_extrachat",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_fancychat",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_greentext",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_greeter",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_lagdetector",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_rushercrypt",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_spammer",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_timestamps",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_translate",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_anchor",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_aura",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_autoarmor",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_autocrystalindev",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_autodisconnect",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_autoexp",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_autosurround",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_autototem",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_bowaimbot",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_bowspam",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_criticals",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_expfast",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_hotbarreplenish",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_ignite",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_pvpinfo",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_quiver",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_triggerbot",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_autohole",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_antiafk",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_antihunger",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_antipacket",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_antiquit",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_autoaccept",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_automount",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_autoreconnect",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_autorespawn",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_extrachest",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_extracraft",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_extrascreenshot",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_extrasign",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_extratab",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_extratooltips",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_gamemode",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_hitboxignore",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_lagreducer",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_noforcerotate",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_notifications",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_pingspoof",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_portalgui",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_richpresence",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_skinblink",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_lagger",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_autowalk",
+    "key": "KEY_O"
+  },
+  {
+    "bindable": "feature_module_toggle_boatfly",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_elytrafly",
+    "key": "KEY_O"
+  },
+  {
+    "bindable": "feature_module_toggle_elytrafly2b2t",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_elytratweaks",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_entitycontrol",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_entityspeed",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_flight",
+    "key": "KEY_Z"
+  },
+  {
+    "bindable": "feature_module_toggle_icespeed",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_inventorymove",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_jesus",
+    "key": "KEY_J"
+  },
+  {
+    "bindable": "feature_module_toggle_nofall",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_noslow",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_safewalk",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_speed",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_sprint",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_step",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_velocity",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_waterspeed",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_antilevitation",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_autoeat",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_autofish",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_automine",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_autotool",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_blink",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_choruscontrol",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_inventorycleaner",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_middleclick",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_multitask",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_packetlogger",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_phase",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_portalgodmode",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_rotationlock",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_swing",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_tickshift",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_xcarry",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_shulkerception",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_blockoutline",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_borders",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_bossstack",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_breadcrumbs",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_breakesp",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_crosshair",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_esp",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_freecam",
+    "key": "KEY_G"
+  },
+  {
+    "bindable": "feature_module_toggle_freelook",
+    "key": "MOUSE_3"
+  },
+  {
+    "bindable": "feature_module_toggle_fullbright",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_hitmarkers",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_holeesp",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_logoutspots",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_nametags",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_norender",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_rainbowenchant",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_search",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_tracers",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_trajectories",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_viewclip",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_viewmodel",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_xray",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_zoom",
+    "key": "KEY_C"
+  },
+  {
+    "bindable": "feature_module_toggle_autotunnel",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_avoid",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_basefinder",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_blocktweaks",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_clientsidetime",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_environment",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_fastbreak",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_fastplace",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_forceplace",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_liquidinteract",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_mobowner",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_newchunks",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_noglitchblocks",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_nomineanimation",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_nuker",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_scaffold",
+    "key": "KEY_I"
+  },
+  {
+    "bindable": "feature_module_toggle_selfblock",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_sourceremover",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_timer",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_waypoints",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_module_toggle_coordlogger",
+    "key": "NONE"
+  }
+]

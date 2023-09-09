@@ -1,0 +1,101 @@
+{
+  "name": "Classic",
+  "settings": [
+    {
+      "name": "color",
+      "value": {
+        "rgba": -922807040,
+        "themeSync": false,
+        "rainbow": false,
+        "rainbowMode": "DEFAULT",
+        "rainbowOffset": 0
+      }
+    },
+    {
+      "name": "panels",
+      "value": null,
+      "subSettings": [
+        {
+          "name": "outline",
+          "value": true
+        },
+        {
+          "name": "height",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "items",
+      "value": null,
+      "subSettings": [
+        {
+          "name": "indicator",
+          "value": "VERTICAL"
+        }
+      ]
+    }
+  ],
+  "panels": {
+    "clickgui": {
+      "customized": true,
+      "Chat": {
+        "x": 514.0,
+        "y": 41.5,
+        "opened": true,
+        "visible": true
+      },
+      "Combat": {
+        "x": 44.0,
+        "y": 41.5,
+        "opened": true,
+        "visible": true
+      },
+      "Movement": {
+        "x": 326.0,
+        "y": 41.5,
+        "opened": true,
+        "visible": true
+      },
+      "Player": {
+        "x": 232.0,
+        "y": 41.5,
+        "opened": true,
+        "visible": true
+      },
+      "Render": {
+        "x": 138.0,
+        "y": 41.5,
+        "opened": true,
+        "visible": true
+      },
+      "World": {
+        "x": 420.0,
+        "y": 41.5,
+        "opened": true,
+        "visible": true
+      },
+      "Client": {
+        "x": 702.0,
+        "y": 41.5,
+        "opened": true,
+        "visible": true
+      },
+      "Miscellaneous": {
+        "x": 607.5,
+        "y": 41.5,
+        "opened": true,
+        "visible": true
+      }
+    },
+    "hud": {
+      "customized": false,
+      "Hud Elements": {
+        "x": 200.0,
+        "y": 50.0,
+        "opened": true,
+        "visible": true
+      }
+    }
+  }
+}

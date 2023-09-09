@@ -1,0 +1,118 @@
+[
+  {
+    "bindable": "feature_hudelement_toggle_watermark",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_fps",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_memory",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_bindlist",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_featurelist",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_macrolist",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_armor",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_crystalcounter",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_direction",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_durability",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_hunger",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_inventory",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_keystrokes",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_playerview",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_position",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_potioneffects",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_speed",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_biome",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_dubcounter",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_entitylist",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_ip",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_onlinetime",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_ping",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_playercount",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_queue",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_serverbrand",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_time",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_tps",
+    "key": "NONE"
+  },
+  {
+    "bindable": "feature_hudelement_toggle_weather",
+    "key": "NONE"
+  }
+]

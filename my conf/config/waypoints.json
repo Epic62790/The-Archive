@@ -1,0 +1,29 @@
+[
+  {
+    "name": "base",
+    "server": "connect.2b2t.org",
+    "x": -183111.30178471614,
+    "y": 60.0,
+    "z": -209298.64670682186,
+    "dimension": "overworld",
+    "enabled": true
+  },
+  {
+    "name": "fish",
+    "server": "connect.2b2t.org",
+    "x": -441713.6398291722,
+    "y": -48.0,
+    "z": -462376.7334464788,
+    "dimension": "overworld",
+    "enabled": true
+  },
+  {
+    "name": "small",
+    "server": "connect.2b2t.org",
+    "x": 648009.588953802,
+    "y": 86.0,
+    "z": 51611.52331347845,
+    "dimension": "overworld",
+    "enabled": true
+  }
+]

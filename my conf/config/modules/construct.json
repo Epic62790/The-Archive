@@ -1,0 +1,7184 @@
+[
+  {
+    "name": "Anchor",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "height",
+        "value": 2
+      },
+      {
+        "name": "center",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "range",
+            "value": 0
+          },
+          {
+            "name": "raytrace",
+            "value": true
+          },
+          {
+            "name": "speed",
+            "value": 0.2
+          }
+        ]
+      },
+      {
+        "name": "descend",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "speed",
+            "value": 0.1
+          }
+        ]
+      },
+      {
+        "name": "doubles",
+        "value": false
+      },
+      {
+        "name": "autodisable",
+        "value": false
+      },
+      {
+        "name": "pitchcontrol",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "pitch",
+            "value": 45
+          }
+        ]
+      },
+      {
+        "name": "delay",
+        "value": 30
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Announcer",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "clientside",
+        "value": true
+      },
+      {
+        "name": "others",
+        "value": true
+      },
+      {
+        "name": "delay",
+        "value": 5.0
+      },
+      {
+        "name": "walking",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "string",
+            "value": "I just moved [distance] feet!"
+          }
+        ]
+      },
+      {
+        "name": "break",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "string",
+            "value": "I just broke [number] [block]!"
+          }
+        ]
+      },
+      {
+        "name": "place",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "string",
+            "value": "I just placed [number] [block]!"
+          }
+        ]
+      },
+      {
+        "name": "pickup",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "string",
+            "value": "[player] just picked up [number] [item]!"
+          }
+        ]
+      },
+      {
+        "name": "xp",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "string",
+            "value": "[player] just got [number] XP!"
+          }
+        ]
+      },
+      {
+        "name": "eating",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "string",
+            "value": "[player] just ate a [item]!"
+          }
+        ]
+      },
+      {
+        "name": "drinking",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "string",
+            "value": "[player] just drank a [item]!"
+          }
+        ]
+      },
+      {
+        "name": "time",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "day",
+            "value": "It\u0027s a nice day outside!"
+          },
+          {
+            "name": "noon",
+            "value": "It is now noon!"
+          },
+          {
+            "name": "sunset",
+            "value": "The sun is setting!"
+          },
+          {
+            "name": "night",
+            "value": "It\u0027s getting dark outside!"
+          },
+          {
+            "name": "midnight",
+            "value": "It is now midnight!"
+          },
+          {
+            "name": "sunrise",
+            "value": "The sun is rising!"
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AntiAFK",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "delay",
+        "value": 4.05
+      },
+      {
+        "name": "focusedcheck",
+        "value": true
+      },
+      {
+        "name": "jump",
+        "value": true
+      },
+      {
+        "name": "swing",
+        "value": true
+      },
+      {
+        "name": "rotate",
+        "value": true
+      },
+      {
+        "name": "sneak",
+        "value": true
+      },
+      {
+        "name": "move",
+        "value": true
+      },
+      {
+        "name": "/stats",
+        "value": false
+      },
+      {
+        "name": "baritone",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AntiHunger",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "elytracheck",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AntiLevitation",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "REMOVE"
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AntiPacket",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "debug",
+        "value": false
+      },
+      {
+        "name": "clientbound",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "class_2604",
+            "value": false
+          },
+          {
+            "name": "class_2606",
+            "value": false
+          },
+          {
+            "name": "class_2613",
+            "value": false
+          },
+          {
+            "name": "class_2616",
+            "value": false
+          },
+          {
+            "name": "class_2617",
+            "value": false
+          },
+          {
+            "name": "class_2620",
+            "value": false
+          },
+          {
+            "name": "class_2622",
+            "value": false
+          },
+          {
+            "name": "class_2623",
+            "value": false
+          },
+          {
+            "name": "class_2626",
+            "value": false
+          },
+          {
+            "name": "class_2629",
+            "value": false
+          },
+          {
+            "name": "class_2632",
+            "value": false
+          },
+          {
+            "name": "class_2637",
+            "value": false
+          },
+          {
+            "name": "class_2639",
+            "value": false
+          },
+          {
+            "name": "class_2641",
+            "value": false
+          },
+          {
+            "name": "class_2645",
+            "value": false
+          },
+          {
+            "name": "class_2648",
+            "value": false
+          },
+          {
+            "name": "class_2649",
+            "value": false
+          },
+          {
+            "name": "class_2651",
+            "value": false
+          },
+          {
+            "name": "class_2653",
+            "value": false
+          },
+          {
+            "name": "class_2656",
+            "value": false
+          },
+          {
+            "name": "class_2658",
+            "value": false
+          },
+          {
+            "name": "class_2661",
+            "value": false
+          },
+          {
+            "name": "class_2663",
+            "value": false
+          },
+          {
+            "name": "class_2664",
+            "value": false
+          },
+          {
+            "name": "class_2666",
+            "value": false
+          },
+          {
+            "name": "class_2668",
+            "value": false
+          },
+          {
+            "name": "class_2670",
+            "value": false
+          },
+          {
+            "name": "class_2672",
+            "value": false
+          },
+          {
+            "name": "class_2673",
+            "value": false
+          },
+          {
+            "name": "class_2675",
+            "value": false
+          },
+          {
+            "name": "class_2676",
+            "value": false
+          },
+          {
+            "name": "class_2678",
+            "value": false
+          },
+          {
+            "name": "class_2683",
+            "value": false
+          },
+          {
+            "name": "class_2684.class_2685",
+            "value": false
+          },
+          {
+            "name": "class_2684.class_2686",
+            "value": false
+          },
+          {
+            "name": "class_2684.class_2687",
+            "value": false
+          },
+          {
+            "name": "class_2692",
+            "value": false
+          },
+          {
+            "name": "class_2693",
+            "value": false
+          },
+          {
+            "name": "class_2695",
+            "value": false
+          },
+          {
+            "name": "class_2696",
+            "value": false
+          },
+          {
+            "name": "class_2703",
+            "value": false
+          },
+          {
+            "name": "class_2707",
+            "value": false
+          },
+          {
+            "name": "class_2708",
+            "value": false
+          },
+          {
+            "name": "class_2713",
+            "value": false
+          },
+          {
+            "name": "class_2716",
+            "value": false
+          },
+          {
+            "name": "class_2718",
+            "value": false
+          },
+          {
+            "name": "class_2720",
+            "value": false
+          },
+          {
+            "name": "class_2724",
+            "value": false
+          },
+          {
+            "name": "class_2726",
+            "value": false
+          },
+          {
+            "name": "class_2729",
+            "value": false
+          },
+          {
+            "name": "class_2734",
+            "value": false
+          },
+          {
+            "name": "class_2735",
+            "value": false
+          },
+          {
+            "name": "class_2736",
+            "value": false
+          },
+          {
+            "name": "class_2739",
+            "value": false
+          },
+          {
+            "name": "class_2740",
+            "value": false
+          },
+          {
+            "name": "class_2743",
+            "value": false
+          },
+          {
+            "name": "class_2744",
+            "value": false
+          },
+          {
+            "name": "class_2748",
+            "value": false
+          },
+          {
+            "name": "class_2749",
+            "value": false
+          },
+          {
+            "name": "class_2751",
+            "value": false
+          },
+          {
+            "name": "class_2752",
+            "value": false
+          },
+          {
+            "name": "class_2757",
+            "value": false
+          },
+          {
+            "name": "class_2759",
+            "value": false
+          },
+          {
+            "name": "class_2761",
+            "value": false
+          },
+          {
+            "name": "class_2765",
+            "value": false
+          },
+          {
+            "name": "class_2767",
+            "value": false
+          },
+          {
+            "name": "class_2770",
+            "value": false
+          },
+          {
+            "name": "class_2772",
+            "value": false
+          },
+          {
+            "name": "class_2774",
+            "value": false
+          },
+          {
+            "name": "class_2775",
+            "value": false
+          },
+          {
+            "name": "class_2777",
+            "value": false
+          },
+          {
+            "name": "class_2779",
+            "value": false
+          },
+          {
+            "name": "class_2781",
+            "value": false
+          },
+          {
+            "name": "class_2783",
+            "value": false
+          },
+          {
+            "name": "class_2788",
+            "value": false
+          },
+          {
+            "name": "class_2790",
+            "value": false
+          },
+          {
+            "name": "class_3895",
+            "value": false
+          },
+          {
+            "name": "class_3943",
+            "value": false
+          },
+          {
+            "name": "class_3944",
+            "value": false
+          },
+          {
+            "name": "class_4273",
+            "value": false
+          },
+          {
+            "name": "class_4282",
+            "value": false
+          },
+          {
+            "name": "class_4463",
+            "value": false
+          },
+          {
+            "name": "class_5888",
+            "value": false
+          },
+          {
+            "name": "class_5889",
+            "value": false
+          },
+          {
+            "name": "class_5890",
+            "value": false
+          },
+          {
+            "name": "class_5891",
+            "value": false
+          },
+          {
+            "name": "class_5892",
+            "value": false
+          },
+          {
+            "name": "class_5894",
+            "value": false
+          },
+          {
+            "name": "class_5895",
+            "value": false
+          },
+          {
+            "name": "class_5896",
+            "value": false
+          },
+          {
+            "name": "class_5897",
+            "value": false
+          },
+          {
+            "name": "class_5898",
+            "value": false
+          },
+          {
+            "name": "class_5899",
+            "value": false
+          },
+          {
+            "name": "class_5900",
+            "value": false
+          },
+          {
+            "name": "class_5903",
+            "value": false
+          },
+          {
+            "name": "class_5904",
+            "value": false
+          },
+          {
+            "name": "class_5905",
+            "value": false
+          },
+          {
+            "name": "class_6373",
+            "value": false
+          },
+          {
+            "name": "class_6682",
+            "value": false
+          },
+          {
+            "name": "class_7438",
+            "value": false
+          },
+          {
+            "name": "class_7439",
+            "value": false
+          },
+          {
+            "name": "class_7495",
+            "value": false
+          },
+          {
+            "name": "class_7597",
+            "value": false
+          },
+          {
+            "name": "class_7617",
+            "value": false
+          },
+          {
+            "name": "class_7827",
+            "value": false
+          },
+          {
+            "name": "class_7828",
+            "value": false
+          },
+          {
+            "name": "class_7832",
+            "value": false
+          },
+          {
+            "name": "class_8042",
+            "value": false
+          },
+          {
+            "name": "class_8043",
+            "value": false
+          },
+          {
+            "name": "class_8143",
+            "value": false
+          },
+          {
+            "name": "class_8212",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "serverbound",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "class_2793",
+            "value": false
+          },
+          {
+            "name": "class_2795",
+            "value": false
+          },
+          {
+            "name": "class_2797",
+            "value": false
+          },
+          {
+            "name": "class_2799",
+            "value": false
+          },
+          {
+            "name": "class_2803",
+            "value": false
+          },
+          {
+            "name": "class_2805",
+            "value": false
+          },
+          {
+            "name": "class_2811",
+            "value": false
+          },
+          {
+            "name": "class_2813",
+            "value": false
+          },
+          {
+            "name": "class_2815",
+            "value": false
+          },
+          {
+            "name": "class_2817",
+            "value": false
+          },
+          {
+            "name": "class_2820",
+            "value": false
+          },
+          {
+            "name": "class_2822",
+            "value": false
+          },
+          {
+            "name": "class_2824",
+            "value": false
+          },
+          {
+            "name": "class_2827",
+            "value": false
+          },
+          {
+            "name": "class_2828.class_2829",
+            "value": false
+          },
+          {
+            "name": "class_2828.class_2830",
+            "value": false
+          },
+          {
+            "name": "class_2828.class_2831",
+            "value": false
+          },
+          {
+            "name": "class_2828.class_5911",
+            "value": false
+          },
+          {
+            "name": "class_2833",
+            "value": false
+          },
+          {
+            "name": "class_2836",
+            "value": false
+          },
+          {
+            "name": "class_2838",
+            "value": false
+          },
+          {
+            "name": "class_2840",
+            "value": false
+          },
+          {
+            "name": "class_2842",
+            "value": false
+          },
+          {
+            "name": "class_2846",
+            "value": false
+          },
+          {
+            "name": "class_2848",
+            "value": false
+          },
+          {
+            "name": "class_2851",
+            "value": false
+          },
+          {
+            "name": "class_2853",
+            "value": false
+          },
+          {
+            "name": "class_2855",
+            "value": false
+          },
+          {
+            "name": "class_2856",
+            "value": false
+          },
+          {
+            "name": "class_2859",
+            "value": false
+          },
+          {
+            "name": "class_2863",
+            "value": false
+          },
+          {
+            "name": "class_2866",
+            "value": false
+          },
+          {
+            "name": "class_2868",
+            "value": false
+          },
+          {
+            "name": "class_2870",
+            "value": false
+          },
+          {
+            "name": "class_2871",
+            "value": false
+          },
+          {
+            "name": "class_2873",
+            "value": false
+          },
+          {
+            "name": "class_2875",
+            "value": false
+          },
+          {
+            "name": "class_2877",
+            "value": false
+          },
+          {
+            "name": "class_2879",
+            "value": false
+          },
+          {
+            "name": "class_2884",
+            "value": false
+          },
+          {
+            "name": "class_2885",
+            "value": false
+          },
+          {
+            "name": "class_2886",
+            "value": false
+          },
+          {
+            "name": "class_3753",
+            "value": false
+          },
+          {
+            "name": "class_4210",
+            "value": false
+          },
+          {
+            "name": "class_4211",
+            "value": false
+          },
+          {
+            "name": "class_5194",
+            "value": false
+          },
+          {
+            "name": "class_5427",
+            "value": false
+          },
+          {
+            "name": "class_6374",
+            "value": false
+          },
+          {
+            "name": "class_7472",
+            "value": false
+          },
+          {
+            "name": "class_7640",
+            "value": false
+          },
+          {
+            "name": "class_7861",
+            "value": false
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AntiQuit",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "disconnect",
+        "value": true
+      },
+      {
+        "name": "gameclose",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "ArmorAlert",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "render",
+        "value": true
+      },
+      {
+        "name": "notification",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "private",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "self",
+        "value": true
+      },
+      {
+        "name": "others",
+        "value": false
+      },
+      {
+        "name": "friends",
+        "value": false
+      },
+      {
+        "name": "nolongerlow_alert",
+        "value": false
+      },
+      {
+        "name": "threshold",
+        "value": 50
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Aura",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "reach",
+        "value": 3.1
+      },
+      {
+        "name": "hitdelay",
+        "value": true
+      },
+      {
+        "name": "autoblock",
+        "value": false
+      },
+      {
+        "name": "weaponcheck",
+        "value": false
+      },
+      {
+        "name": "tps_sync",
+        "value": true
+      },
+      {
+        "name": "rotate",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "speed",
+            "value": 180.0
+          },
+          {
+            "name": "silent",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "targets",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "players",
+            "value": false,
+            "subSettings": [
+              {
+                "name": "self",
+                "value": false
+              },
+              {
+                "name": "friendprotect",
+                "value": true
+              },
+              {
+                "name": "prioritizeenemies",
+                "value": true
+              },
+              {
+                "name": "ignorecreative",
+                "value": true
+              }
+            ]
+          },
+          {
+            "name": "hostiles",
+            "value": true
+          },
+          {
+            "name": "passives",
+            "value": false
+          },
+          {
+            "name": "neutrals",
+            "value": false
+          },
+          {
+            "name": "vehicles",
+            "value": false
+          },
+          {
+            "name": "crystals",
+            "value": false
+          },
+          {
+            "name": "items",
+            "value": false
+          },
+          {
+            "name": "projectiles",
+            "value": false
+          },
+          {
+            "name": "others",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "pausewhileeating",
+        "value": true
+      },
+      {
+        "name": "disableondeath",
+        "value": true
+      },
+      {
+        "name": "pausebaritone",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoAccept",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "deny",
+        "value": true
+      },
+      {
+        "name": "friends",
+        "value": true
+      },
+      {
+        "name": "tpa",
+        "value": true
+      },
+      {
+        "name": "duels",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoArmor",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "delay",
+        "value": 2
+      },
+      {
+        "name": "soft",
+        "value": false
+      },
+      {
+        "name": "inventory",
+        "value": true
+      },
+      {
+        "name": "binding",
+        "value": false
+      },
+      {
+        "name": "elytrapriority",
+        "value": false
+      },
+      {
+        "name": "blastpriority",
+        "value": true
+      },
+      {
+        "name": "durability",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "threshold",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoCrystalIndev",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "targetting",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "players",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "self",
+                "value": false
+              },
+              {
+                "name": "friendprotect",
+                "value": true
+              },
+              {
+                "name": "prioritizeenemies",
+                "value": true
+              },
+              {
+                "name": "ignorecreative",
+                "value": true
+              }
+            ]
+          },
+          {
+            "name": "hostiles",
+            "value": false
+          },
+          {
+            "name": "passives",
+            "value": false
+          },
+          {
+            "name": "neutrals",
+            "value": false
+          },
+          {
+            "name": "vehicles",
+            "value": false
+          },
+          {
+            "name": "crystals",
+            "value": false
+          },
+          {
+            "name": "items",
+            "value": false
+          },
+          {
+            "name": "projectiles",
+            "value": false
+          },
+          {
+            "name": "others",
+            "value": false
+          },
+          {
+            "name": "priority",
+            "value": "ANGLE"
+          },
+          {
+            "name": "render",
+            "value": false,
+            "subSettings": [
+              {
+                "name": "color",
+                "value": {
+                  "rgba": 1090519039,
+                  "themeSync": true,
+                  "rainbow": false,
+                  "rainbowMode": "DEFAULT",
+                  "rainbowOffset": 0
+                }
+              },
+              {
+                "name": "fill",
+                "value": true
+              },
+              {
+                "name": "outline",
+                "value": true,
+                "subSettings": [
+                  {
+                    "name": "width",
+                    "value": 2.0
+                  }
+                ]
+              },
+              {
+                "name": "depthtest",
+                "value": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "explode",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "swing",
+            "value": true
+          },
+          {
+            "name": "speed",
+            "value": 20
+          },
+          {
+            "name": "maxhitattempts",
+            "value": 2
+          },
+          {
+            "name": "minticksexisted",
+            "value": 0
+          },
+          {
+            "name": "range",
+            "value": 4.5
+          },
+          {
+            "name": "wallrange",
+            "value": 3.0
+          },
+          {
+            "name": "mindamage",
+            "value": 8
+          },
+          {
+            "name": "maxselfdamage",
+            "value": 8
+          },
+          {
+            "name": "whileeating",
+            "value": true
+          },
+          {
+            "name": "whilemining",
+            "value": true
+          },
+          {
+            "name": "antiweakness",
+            "value": "NORMAL"
+          },
+          {
+            "name": "render",
+            "value": false,
+            "subSettings": [
+              {
+                "name": "color",
+                "value": {
+                  "rgba": 1090519039,
+                  "themeSync": true,
+                  "rainbow": false,
+                  "rainbowMode": "DEFAULT",
+                  "rainbowOffset": 0
+                }
+              },
+              {
+                "name": "fill",
+                "value": true
+              },
+              {
+                "name": "outline",
+                "value": true,
+                "subSettings": [
+                  {
+                    "name": "width",
+                    "value": 2.0
+                  }
+                ]
+              },
+              {
+                "name": "depthtest",
+                "value": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "place",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "swing",
+            "value": true
+          },
+          {
+            "name": "speed",
+            "value": 20
+          },
+          {
+            "name": "maxignoreattempts",
+            "value": 1
+          },
+          {
+            "name": "range",
+            "value": 4.5
+          },
+          {
+            "name": "wallrange",
+            "value": 3.0
+          },
+          {
+            "name": "mindamage",
+            "value": 8
+          },
+          {
+            "name": "maxselfdamage",
+            "value": 8
+          },
+          {
+            "name": "await",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "timeout",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "name": "1.12.2",
+            "value": false
+          },
+          {
+            "name": "ignoreterrain",
+            "value": true
+          },
+          {
+            "name": "whileeating",
+            "value": true
+          },
+          {
+            "name": "whilemining",
+            "value": true
+          },
+          {
+            "name": "autoswitch",
+            "value": "OFF"
+          },
+          {
+            "name": "strict",
+            "value": false
+          },
+          {
+            "name": "faceplace",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "health",
+                "value": 4
+              },
+              {
+                "name": "armorpercent",
+                "value": 10
+              },
+              {
+                "name": "speed",
+                "value": 20
+              },
+              {
+                "name": "force",
+                "value": "NONE"
+              }
+            ]
+          },
+          {
+            "name": "render",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "damage",
+                "value": true,
+                "subSettings": [
+                  {
+                    "name": "customfont",
+                    "value": true
+                  },
+                  {
+                    "name": "color",
+                    "value": {
+                      "rgba": -1,
+                      "themeSync": false,
+                      "rainbow": false,
+                      "rainbowMode": "DEFAULT",
+                      "rainbowOffset": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "box",
+                "value": true,
+                "subSettings": [
+                  {
+                    "name": "color",
+                    "value": {
+                      "rgba": 1090519039,
+                      "themeSync": true,
+                      "rainbow": false,
+                      "rainbowMode": "DEFAULT",
+                      "rainbowOffset": 0
+                    }
+                  },
+                  {
+                    "name": "fill",
+                    "value": true
+                  },
+                  {
+                    "name": "outline",
+                    "value": true,
+                    "subSettings": [
+                      {
+                        "name": "width",
+                        "value": 2.0
+                      }
+                    ]
+                  },
+                  {
+                    "name": "depthtest",
+                    "value": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "rotate",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "constant",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "ticks",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "waitforrotate",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "unpausewait",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "name": "speed",
+            "value": 180
+          },
+          {
+            "name": "randomizespeed",
+            "value": false
+          },
+          {
+            "name": "silent",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "predict",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "targetextrapolation",
+            "value": 0
+          },
+          {
+            "name": "selfextrapolation",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "name": "miscellaneous",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "pauseathp",
+            "value": 2
+          },
+          {
+            "name": "priority",
+            "value": "EXPLODE"
+          },
+          {
+            "name": "metadata",
+            "value": "TARGET"
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoDisconnect",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "autotoggle",
+        "value": true
+      },
+      {
+        "name": "stopautorc",
+        "value": true
+      },
+      {
+        "name": "health",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "amount",
+            "value": 6.0
+          },
+          {
+            "name": "totemcheck",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "time",
+        "value": true
+      },
+      {
+        "name": "proximity",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "players",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "self",
+                "value": false
+              },
+              {
+                "name": "friendprotect",
+                "value": true
+              },
+              {
+                "name": "prioritizeenemies",
+                "value": true
+              },
+              {
+                "name": "ignorecreative",
+                "value": true
+              }
+            ]
+          },
+          {
+            "name": "hostiles",
+            "value": false
+          },
+          {
+            "name": "passives",
+            "value": false
+          },
+          {
+            "name": "neutrals",
+            "value": false
+          },
+          {
+            "name": "vehicles",
+            "value": false
+          },
+          {
+            "name": "crystals",
+            "value": false
+          },
+          {
+            "name": "items",
+            "value": false
+          },
+          {
+            "name": "projectiles",
+            "value": false
+          },
+          {
+            "name": "others",
+            "value": false
+          },
+          {
+            "name": "range",
+            "value": 6.0
+          },
+          {
+            "name": "coordinates",
+            "value": false,
+            "subSettings": [
+              {
+                "name": "range",
+                "value": 500.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ylevel",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "level",
+            "value": -128
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoEXP",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "MACRO"
+      },
+      {
+        "name": "dynamic_armor",
+        "value": false
+      },
+      {
+        "name": "pauseautoarmor",
+        "value": false
+      },
+      {
+        "name": "smart",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "range",
+            "value": 10.0
+          }
+        ]
+      },
+      {
+        "name": "rotate",
+        "value": true
+      },
+      {
+        "name": "durability%",
+        "value": 5
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoEat",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "HUNGER"
+      },
+      {
+        "name": "hunger",
+        "value": 6
+      },
+      {
+        "name": "health",
+        "value": 14
+      },
+      {
+        "name": "untilfull",
+        "value": true
+      },
+      {
+        "name": "return",
+        "value": true
+      },
+      {
+        "name": "goldenapples",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "burning",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "milk",
+        "value": false
+      },
+      {
+        "name": "chorus",
+        "value": false
+      },
+      {
+        "name": "poisonous",
+        "value": false
+      },
+      {
+        "name": "pausebaritone",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoFish",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "autodisable",
+        "value": false
+      },
+      {
+        "name": "castdelay",
+        "value": 20
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoHole",
+    "hidden": false,
+    "notifications": false,
+    "settings": [
+      {
+        "name": "range",
+        "value": 10.0
+      },
+      {
+        "name": "blink",
+        "value": true
+      },
+      {
+        "name": "ignoreownhole",
+        "value": true
+      },
+      {
+        "name": "ignoredeep",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoMine",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "CONTINUOUS"
+      },
+      {
+        "name": "focused",
+        "value": false
+      },
+      {
+        "name": "throughentities",
+        "value": true
+      },
+      {
+        "name": "requirepickaxe",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "switch",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "autodisable",
+        "value": false
+      },
+      {
+        "name": "raytrace",
+        "value": false
+      },
+      {
+        "name": "range",
+        "value": 4.5
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoMount",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "horses",
+        "value": true
+      },
+      {
+        "name": "donkeys",
+        "value": true
+      },
+      {
+        "name": "llamas",
+        "value": true
+      },
+      {
+        "name": "boats",
+        "value": true
+      },
+      {
+        "name": "minecarts",
+        "value": true
+      },
+      {
+        "name": "pigs",
+        "value": true
+      },
+      {
+        "name": "range",
+        "value": 5.0
+      },
+      {
+        "name": "delay",
+        "value": 0
+      },
+      {
+        "name": "rotate",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoReconnect",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "delay",
+        "value": 5.0
+      },
+      {
+        "name": "hide",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoReply",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "triggertext",
+        "value": "whispers:"
+      },
+      {
+        "name": "friendtext",
+        "value": "/msg [name] Hello friend!"
+      },
+      {
+        "name": "nonfriendtext",
+        "value": "/msg [name] Who are you? Are you relevant enough to be telling me such things?"
+      },
+      {
+        "name": "globalchat",
+        "value": false
+      },
+      {
+        "name": "friends",
+        "value": true
+      },
+      {
+        "name": "focuscheck",
+        "value": false
+      },
+      {
+        "name": "delay",
+        "value": 1.0
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoRespawn",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "deathcoords",
+        "value": true
+      },
+      {
+        "name": "delay",
+        "value": 0.0
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "AutoSurround",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "ACTIVE"
+      },
+      {
+        "name": "move_delay",
+        "value": 10
+      },
+      {
+        "name": "place_delay",
+        "value": 1
+      },
+      {
+        "name": "swap",
+        "value": true
+      },
+      {
+        "name": "rotate",
+        "value": true
+      },
+      {
+        "name": "center",
+        "value": true
+      },
+      {
+        "name": "disableondeath",
+        "value": true
+      },
+      {
+        "name": "render",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "color",
+            "value": {
+              "rgba": 838926335,
+              "themeSync": true,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoTool",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "attacking",
+        "value": true
+      },
+      {
+        "name": "mining",
+        "value": true
+      },
+      {
+        "name": "return",
+        "value": true
+      },
+      {
+        "name": "silktouch",
+        "value": false
+      },
+      {
+        "name": "inventory",
+        "value": true
+      },
+      {
+        "name": "mindurability",
+        "value": 0
+      },
+      {
+        "name": "delay",
+        "value": 5
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoTotem",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "HEALTH"
+      },
+      {
+        "name": "health",
+        "value": 3
+      },
+      {
+        "name": "absorptioncheck",
+        "value": true
+      },
+      {
+        "name": "alternateitem",
+        "value": "GAPPLE"
+      },
+      {
+        "name": "alternatewhen",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "requiresautocrystal",
+            "value": false
+          },
+          {
+            "name": "sworduse",
+            "value": true
+          },
+          {
+            "name": "keyheld",
+            "value": "NONE",
+            "subSettings": [
+              {
+                "name": "toggle",
+                "value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "totemwhen",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "falldistance",
+            "value": 20
+          },
+          {
+            "name": "nonfullarmor",
+            "value": true
+          },
+          {
+            "name": "lethalcrystal",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "hotbarpriority",
+        "value": true
+      },
+      {
+        "name": "inventory",
+        "value": true
+      },
+      {
+        "name": "delay",
+        "value": 0
+      },
+      {
+        "name": "soft",
+        "value": false
+      },
+      {
+        "name": "stopmotion",
+        "value": false
+      },
+      {
+        "name": "stopeating",
+        "value": true
+      },
+      {
+        "name": "whileeating",
+        "value": true
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "AutoTunnel",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "height",
+        "value": 2
+      },
+      {
+        "name": "width",
+        "value": 1
+      },
+      {
+        "name": "range",
+        "value": 4.5
+      },
+      {
+        "name": "delay",
+        "value": 1.0
+      },
+      {
+        "name": "whilemoving",
+        "value": true
+      },
+      {
+        "name": "rotate",
+        "value": true
+      },
+      {
+        "name": "render",
+        "value": true
+      },
+      {
+        "name": "autowalk",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "AutoWalk",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "onlyelytra",
+        "value": false
+      },
+      {
+        "name": "pauseonlag",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "delay",
+            "value": 2.0
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Avoid",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "fire",
+        "value": true
+      },
+      {
+        "name": "cactus",
+        "value": true
+      },
+      {
+        "name": "web",
+        "value": true
+      },
+      {
+        "name": "endermen",
+        "value": "OFF"
+      },
+      {
+        "name": "unloaded",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Baritone",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "lagstop",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "time",
+            "value": 3.0
+          }
+        ]
+      },
+      {
+        "name": "pausebind",
+        "value": "NONE"
+      }
+    ]
+  },
+  {
+    "name": "BaseFinder",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "logger",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "notification",
+            "value": true
+          },
+          {
+            "name": "beds",
+            "value": true
+          },
+          {
+            "name": "endportals",
+            "value": true
+          },
+          {
+            "name": "ignoredungeonchests",
+            "value": false
+          },
+          {
+            "name": "shulkers",
+            "value": 5
+          },
+          {
+            "name": "chests",
+            "value": 10
+          },
+          {
+            "name": "enderchests",
+            "value": 5
+          },
+          {
+            "name": "skulls",
+            "value": 1
+          },
+          {
+            "name": "spawners",
+            "value": 3
+          },
+          {
+            "name": "hoppers",
+            "value": 3
+          },
+          {
+            "name": "dispensers",
+            "value": 3
+          },
+          {
+            "name": "donkeys",
+            "value": 2
+          },
+          {
+            "name": "llamas",
+            "value": 2
+          },
+          {
+            "name": "chestrequired",
+            "value": true
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Blink",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "timelimit",
+        "value": 0.0
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "BlockOutline",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "thickness",
+        "value": 1.5
+      },
+      {
+        "name": "depth",
+        "value": true
+      },
+      {
+        "name": "fill",
+        "value": true
+      },
+      {
+        "name": "color",
+        "value": {
+          "rgba": 838926335,
+          "themeSync": true,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "BlockTweaks",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "abort",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "BoatFly",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "speed",
+        "value": 0.98
+      },
+      {
+        "name": "vertical",
+        "value": 0.0
+      },
+      {
+        "name": "glide",
+        "value": 0.0
+      },
+      {
+        "name": "fixyaw",
+        "value": false
+      },
+      {
+        "name": "duck",
+        "value": false
+      },
+      {
+        "name": "strict",
+        "value": true
+      },
+      {
+        "name": "antikick",
+        "value": true
+      },
+      {
+        "name": "toggleondisconnect",
+        "value": false
+      },
+      {
+        "name": "tickstopause",
+        "value": 0
+      },
+      {
+        "name": "consecutivelagbacks",
+        "value": 0
+      },
+      {
+        "name": "boatscale",
+        "value": 1.0
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Borders",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "ylevel",
+        "value": "VOID"
+      },
+      {
+        "name": "chunk",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "color",
+            "value": {
+              "rgba": 1090453504,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "fill",
+            "value": false
+          },
+          {
+            "name": "outline",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "mapart",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "color",
+            "value": {
+              "rgba": 1090518784,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "fill",
+            "value": false
+          },
+          {
+            "name": "outline",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "region",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "color",
+            "value": {
+              "rgba": 1073742079,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "fill",
+            "value": false
+          },
+          {
+            "name": "outline",
+            "value": true
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "BossStack",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "HIDE"
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "BowAimbot",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "targets",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "players",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "self",
+                "value": false
+              },
+              {
+                "name": "friendprotect",
+                "value": true
+              },
+              {
+                "name": "prioritizeenemies",
+                "value": true
+              },
+              {
+                "name": "ignorecreative",
+                "value": true
+              }
+            ]
+          },
+          {
+            "name": "hostiles",
+            "value": true
+          },
+          {
+            "name": "passives",
+            "value": false
+          },
+          {
+            "name": "neutrals",
+            "value": false
+          },
+          {
+            "name": "vehicles",
+            "value": false
+          },
+          {
+            "name": "crystals",
+            "value": false
+          },
+          {
+            "name": "items",
+            "value": false
+          },
+          {
+            "name": "projectiles",
+            "value": false
+          },
+          {
+            "name": "others",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "silent",
+        "value": false
+      },
+      {
+        "name": "extrapolation",
+        "value": 0
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "BowSpam",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "ticks",
+        "value": 1
+      },
+      {
+        "name": "bowbomb",
+        "value": "OFF"
+      },
+      {
+        "name": "others",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "BreadCrumbs",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "active",
+        "value": true
+      },
+      {
+        "name": "width",
+        "value": 1.0
+      },
+      {
+        "name": "limit",
+        "value": 500
+      },
+      {
+        "name": "color",
+        "value": {
+          "rgba": -16711681,
+          "themeSync": false,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "BreakESP",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "rendermode",
+        "value": "FILL"
+      },
+      {
+        "name": "fillmode",
+        "value": "IN"
+      },
+      {
+        "name": "ignoreself",
+        "value": true
+      },
+      {
+        "name": "color",
+        "value": {
+          "rgba": 838926335,
+          "themeSync": false,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Capes",
+    "hidden": false,
+    "notifications": true,
+    "toggled": true
+  },
+  {
+    "name": "ChatAppend",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "custom",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "text",
+            "value": "rusherhack"
+          }
+        ]
+      },
+      {
+        "name": "random",
+        "value": false
+      },
+      {
+        "name": "prefix",
+        "value": false
+      },
+      {
+        "name": "suffix",
+        "value": true
+      },
+      {
+        "name": "between",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "ChatColors",
+    "hidden": false,
+    "notifications": true,
+    "toggled": false
+  },
+  {
+    "name": "ChorusControl",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "accept",
+        "value": "KEY_ENTER"
+      },
+      {
+        "name": "others",
+        "value": false
+      },
+      {
+        "name": "box",
+        "value": true
+      },
+      {
+        "name": "tracer",
+        "value": false
+      },
+      {
+        "name": "color",
+        "value": {
+          "rgba": -16711936,
+          "themeSync": false,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "ClickGUI",
+    "hidden": false,
+    "notifications": false,
+    "settings": [
+      {
+        "name": "scale",
+        "value": 1.0
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "ClientSideTime",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "time",
+        "value": 18620
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Colors",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "rainbow_settings",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "mode",
+            "value": "RAINBOW"
+          },
+          {
+            "name": "speed",
+            "value": 1.0
+          },
+          {
+            "name": "saturation",
+            "value": 50
+          },
+          {
+            "name": "brightness",
+            "value": 100
+          },
+          {
+            "name": "start",
+            "value": {
+              "rgba": -16776961,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "end",
+            "value": {
+              "rgba": -16711681,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "entities",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "friends",
+            "value": {
+              "rgba": -16711681,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "enemies",
+            "value": {
+              "rgba": -8585216,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "players",
+            "value": {
+              "rgba": -65536,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "hostiles",
+            "value": {
+              "rgba": -65536,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "passives",
+            "value": {
+              "rgba": -16711936,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "neutrals",
+            "value": {
+              "rgba": -14336,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "endcrystals",
+            "value": {
+              "rgba": -65281,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "vehicles",
+            "value": {
+              "rgba": -256,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "items",
+            "value": {
+              "rgba": -256,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "misc",
+            "value": {
+              "rgba": -8355712,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "block_entities",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "chests",
+            "value": {
+              "rgba": -19968,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "enderchests",
+            "value": {
+              "rgba": -7274241,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "shulkerboxes",
+            "value": {
+              "rgba": -65361,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "misc",
+            "value": {
+              "rgba": -8355712,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "distance_colors",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "far",
+            "value": {
+              "rgba": -16711936,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "close",
+            "value": {
+              "rgba": -65536,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CoordLogger",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "teleportation",
+        "value": true
+      },
+      {
+        "name": "entityteleportation",
+        "value": true
+      },
+      {
+        "name": "endportals",
+        "value": false
+      },
+      {
+        "name": "enderdragon",
+        "value": false
+      },
+      {
+        "name": "withers",
+        "value": false
+      },
+      {
+        "name": "othersounds",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Criticals",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "PACKET"
+      },
+      {
+        "name": "strict",
+        "value": true
+      },
+      {
+        "name": "whilesprinting",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Crosshair",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "CSGO"
+      },
+      {
+        "name": "dynamic",
+        "value": false
+      },
+      {
+        "name": "length",
+        "value": 4.0
+      },
+      {
+        "name": "width",
+        "value": 1.0
+      },
+      {
+        "name": "gap",
+        "value": 1.0
+      },
+      {
+        "name": "dynamicgap",
+        "value": 2.0
+      },
+      {
+        "name": "color",
+        "value": {
+          "rgba": -16711681,
+          "themeSync": false,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      },
+      {
+        "name": "outline",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "CustomFont",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "font",
+        "value": "Verdana"
+      },
+      {
+        "name": "bold",
+        "value": false
+      },
+      {
+        "name": "italic",
+        "value": false
+      },
+      {
+        "name": "size",
+        "value": 18
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "ESP",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "entities",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "mode",
+            "value": "BOX"
+          },
+          {
+            "name": "colormode",
+            "value": "DISTANCE"
+          },
+          {
+            "name": "targets",
+            "value": null,
+            "subSettings": [
+              {
+                "name": "players",
+                "value": false,
+                "subSettings": [
+                  {
+                    "name": "self",
+                    "value": false
+                  },
+                  {
+                    "name": "friendprotect",
+                    "value": false
+                  },
+                  {
+                    "name": "prioritizeenemies",
+                    "value": true
+                  },
+                  {
+                    "name": "ignorecreative",
+                    "value": false
+                  }
+                ]
+              },
+              {
+                "name": "hostiles",
+                "value": false
+              },
+              {
+                "name": "passives",
+                "value": false
+              },
+              {
+                "name": "neutrals",
+                "value": false
+              },
+              {
+                "name": "vehicles",
+                "value": false
+              },
+              {
+                "name": "crystals",
+                "value": false
+              },
+              {
+                "name": "items",
+                "value": true
+              },
+              {
+                "name": "projectiles",
+                "value": false
+              },
+              {
+                "name": "others",
+                "value": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "storages",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "mode",
+            "value": "BOX"
+          },
+          {
+            "name": "colormode",
+            "value": "STATIC"
+          },
+          {
+            "name": "targets",
+            "value": null,
+            "subSettings": [
+              {
+                "name": "chests",
+                "value": true
+              },
+              {
+                "name": "enderchests",
+                "value": true
+              },
+              {
+                "name": "shulkerboxes",
+                "value": true
+              },
+              {
+                "name": "dispensers",
+                "value": false
+              },
+              {
+                "name": "furnaces",
+                "value": false
+              },
+              {
+                "name": "hoppers",
+                "value": false
+              },
+              {
+                "name": "others",
+                "value": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "light",
+        "value": false
+      },
+      {
+        "name": "box_settings",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "fill",
+            "value": false,
+            "subSettings": [
+              {
+                "name": "opacity",
+                "value": 50
+              }
+            ]
+          },
+          {
+            "name": "outline",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "width",
+                "value": 1.0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "EXPFast",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "delay",
+        "value": 0
+      },
+      {
+        "name": "pitch",
+        "value": false
+      },
+      {
+        "name": "throw",
+        "value": "NONE"
+      },
+      {
+        "name": "silentthrow",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "ElytraFly",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "BOUNCE"
+      },
+      {
+        "name": "takeoff",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "descending",
+            "value": true
+          },
+          {
+            "name": "timer",
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "name": "autoredeploy",
+        "value": true
+      },
+      {
+        "name": "acceleration",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "speed",
+            "value": 0.1
+          },
+          {
+            "name": "maxspeed",
+            "value": 2.0
+          }
+        ]
+      },
+      {
+        "name": "control_settings",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "speed",
+            "value": 1.61
+          },
+          {
+            "name": "verticalspeed",
+            "value": 1.0
+          },
+          {
+            "name": "fireworks",
+            "value": false,
+            "subSettings": [
+              {
+                "name": "itemdelay",
+                "value": 1.0
+              },
+              {
+                "name": "lagredeploy",
+                "value": true
+              },
+              {
+                "name": "dynamicdelay",
+                "value": true
+              },
+              {
+                "name": "staticdelay",
+                "value": 30
+              }
+            ]
+          },
+          {
+            "name": "ascend",
+            "value": "JUMP"
+          },
+          {
+            "name": "glidespeed",
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "name": "boost_settings",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "automatic",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "boostticks",
+                "value": 50
+              },
+              {
+                "name": "targety",
+                "value": 200
+              },
+              {
+                "name": "emergeat",
+                "value": 140.0
+              }
+            ]
+          },
+          {
+            "name": "speed",
+            "value": 1.0
+          },
+          {
+            "name": "speedlimit",
+            "value": 190.0
+          },
+          {
+            "name": "pitchcheck",
+            "value": true
+          },
+          {
+            "name": "useforward",
+            "value": true
+          },
+          {
+            "name": "pause",
+            "value": "NONE"
+          }
+        ]
+      },
+      {
+        "name": "packet_settings",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "speed",
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "name": "bounce_settings",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "pitchspoof",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "pitch",
+                "value": 90.0
+              }
+            ]
+          },
+          {
+            "name": "autojump",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "highwayobstaclepasser",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "distance",
+            "value": 10.0
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "ElytraFly2b2t",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "takeoff",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "descending",
+            "value": true
+          },
+          {
+            "name": "timer",
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "name": "autoredeploy",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "wait",
+            "value": false
+          },
+          {
+            "name": "timer",
+            "value": 0.1
+          },
+          {
+            "name": "delay",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "usetimer",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "activespeed",
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "name": "resetspeedrubberband",
+        "value": true
+      },
+      {
+        "name": "cancelmotionrubberband",
+        "value": true
+      },
+      {
+        "name": "speed",
+        "value": 6.0
+      },
+      {
+        "name": "speedboost",
+        "value": 0.03
+      },
+      {
+        "name": "boostdelay",
+        "value": 1.5
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "ElytraTweaks",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "fixrocketdesync",
+        "value": false
+      },
+      {
+        "name": "nobounce",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Entities",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "fakeplayers",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "damage",
+            "value": true
+          },
+          {
+            "name": "movement",
+            "value": "OFF"
+          },
+          {
+            "name": "radius",
+            "value": 5.0
+          },
+          {
+            "name": "speed",
+            "value": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "EntityControl",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "control",
+        "value": true
+      },
+      {
+        "name": "horsejump",
+        "value": true
+      },
+      {
+        "name": "boatfixyaw",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "EntitySpeed",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "speed",
+        "value": 2.0
+      },
+      {
+        "name": "strict",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Environment",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "world",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "color",
+            "value": {
+              "rgba": -5046017,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "sky",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "overworld",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "color",
+                "value": {
+                  "rgba": -13105574,
+                  "themeSync": false,
+                  "rainbow": false,
+                  "rainbowMode": "DEFAULT",
+                  "rainbowOffset": 0
+                }
+              }
+            ]
+          },
+          {
+            "name": "nether",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "color",
+                "value": {
+                  "rgba": -16711681,
+                  "themeSync": false,
+                  "rainbow": false,
+                  "rainbowMode": "DEFAULT",
+                  "rainbowOffset": 0
+                }
+              }
+            ]
+          },
+          {
+            "name": "end",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "color",
+                "value": {
+                  "rgba": -16711681,
+                  "themeSync": false,
+                  "rainbow": false,
+                  "rainbowMode": "DEFAULT",
+                  "rainbowOffset": 0
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "cloud",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "color",
+            "value": {
+              "rgba": -16711681,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "ExtraChat",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "maxlines",
+        "value": 1000
+      },
+      {
+        "name": "background",
+        "value": true
+      },
+      {
+        "name": "customfont",
+        "value": false
+      },
+      {
+        "name": "animations",
+        "value": "OFF"
+      },
+      {
+        "name": "length",
+        "value": 150
+      },
+      {
+        "name": "mentions",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "friends",
+            "value": true
+          },
+          {
+            "name": "highlight",
+            "value": false,
+            "subSettings": [
+              {
+                "name": "text",
+                "value": true,
+                "subSettings": [
+                  {
+                    "name": "formatting",
+                    "value": "BLUE"
+                  }
+                ]
+              },
+              {
+                "name": "background",
+                "value": false,
+                "subSettings": [
+                  {
+                    "name": "color",
+                    "value": {
+                      "rgba": -65536,
+                      "themeSync": false,
+                      "rainbow": false,
+                      "rainbowMode": "DEFAULT",
+                      "rainbowOffset": 0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "sound",
+            "value": true
+          },
+          {
+            "name": "ignoreselfmsgs",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "nameprotect",
+        "value": false
+      },
+      {
+        "name": "stripblanklines",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "ExtraChest",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "buttons",
+        "value": false
+      },
+      {
+        "name": "mode",
+        "value": "STEAL"
+      },
+      {
+        "name": "stealmode",
+        "value": "ALL"
+      },
+      {
+        "name": "fillmode",
+        "value": "WHITELIST"
+      },
+      {
+        "name": "dropmode",
+        "value": "ALL"
+      },
+      {
+        "name": "stealdelay",
+        "value": 1
+      },
+      {
+        "name": "filldelay",
+        "value": 1
+      },
+      {
+        "name": "dropdelay",
+        "value": 1
+      },
+      {
+        "name": "search",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "save",
+            "value": false
+          },
+          {
+            "name": "color",
+            "value": {
+              "rgba": -16711681,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "shulkerhighlight",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "color",
+            "value": {
+              "rgba": -65536,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "ExtraCraft",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "autocraft",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "recipe",
+            "value": "firework_rocket"
+          }
+        ]
+      },
+      {
+        "name": "fastcraft",
+        "value": false
+      },
+      {
+        "name": "inventory",
+        "value": false
+      },
+      {
+        "name": "delay",
+        "value": 5
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "ExtraScreenshot",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "UPLOAD"
+      },
+      {
+        "name": "save",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "ExtraSign",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "coloredsigns",
+        "value": true
+      },
+      {
+        "name": "autosign",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "line1",
+            "value": "buy rusherhack"
+          },
+          {
+            "name": "line2",
+            "value": "today at"
+          },
+          {
+            "name": "line3",
+            "value": "rusherhack.org"
+          },
+          {
+            "name": "line4",
+            "value": "buy rusherhack"
+          },
+          {
+            "name": "autoupdate",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "dateappend",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "eu",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "strict",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "ExtraTab",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "sorting",
+        "value": "FRIENDS"
+      },
+      {
+        "name": "ping",
+        "value": "NORMAL"
+      },
+      {
+        "name": "onlyshow",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "friends",
+            "value": true
+          },
+          {
+            "name": "enemies",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "players",
+        "value": 353
+      },
+      {
+        "name": "maxheight",
+        "value": 35
+      },
+      {
+        "name": "toggle",
+        "value": false
+      },
+      {
+        "name": "colors",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "background",
+            "value": {
+              "rgba": -2147483648,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "item",
+            "value": {
+              "rgba": 553648127,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "names",
+            "value": {
+              "rgba": -1,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          },
+          {
+            "name": "friends",
+            "value": true
+          },
+          {
+            "name": "enemies",
+            "value": true
+          }
+        ]
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "ExtraTooltips",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "maps",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "scale",
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "name": "shulkers",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "locking",
+            "value": false,
+            "subSettings": [
+              {
+                "name": "bind",
+                "value": "KEY_LEFT_SHIFT"
+              }
+            ]
+          },
+          {
+            "name": "dynamiccolor",
+            "value": true
+          },
+          {
+            "name": "color",
+            "value": {
+              "rgba": -1,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "enderchests",
+        "value": true
+      },
+      {
+        "name": "chatembed",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "size",
+            "value": 1.0
+          },
+          {
+            "name": "enlarge",
+            "value": "KEY_LEFT_SHIFT"
+          }
+        ]
+      },
+      {
+        "name": "nbtdata",
+        "value": false
+      },
+      {
+        "name": "size",
+        "value": true
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "FancyChat",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "NHACK"
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "FastBreak",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "speed",
+        "value": 0.3
+      },
+      {
+        "name": "delay",
+        "value": 0
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "FastPlace",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "delay",
+        "value": 0
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Flight",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "CREATIVE"
+      },
+      {
+        "name": "speed",
+        "value": 1.72
+      },
+      {
+        "name": "antikick",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "ForcePlace",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "blocks",
+        "value": true
+      },
+      {
+        "name": "entities",
+        "value": false
+      },
+      {
+        "name": "fireworks",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "FreeLook",
+    "hidden": true,
+    "notifications": false,
+    "settings": [
+      {
+        "name": "usage",
+        "value": "TOGGLE"
+      },
+      {
+        "name": "smooth",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Freecam",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "speed",
+        "value": 0.78
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "FullBright",
+    "hidden": false,
+    "notifications": true,
+    "toggled": true
+  },
+  {
+    "name": "Gamemode",
+    "hidden": true,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "gamemode",
+        "value": "CREATIVE"
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "GreenText",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "space",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Greeter",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "clientside",
+        "value": "CHAT"
+      },
+      {
+        "name": "joins",
+        "value": true
+      },
+      {
+        "name": "leaves",
+        "value": true
+      },
+      {
+        "name": "delay",
+        "value": 0.1
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "HUD",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "scale",
+        "value": 1.0
+      },
+      {
+        "name": "customfont",
+        "value": true
+      },
+      {
+        "name": "fps",
+        "value": 60
+      },
+      {
+        "name": "colors",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "themesync",
+            "value": false
+          },
+          {
+            "name": "global",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "primary",
+                "value": {
+                  "rgba": -146678,
+                  "themeSync": false,
+                  "rainbow": false,
+                  "rainbowMode": "DEFAULT",
+                  "rainbowOffset": 0
+                }
+              },
+              {
+                "name": "secondary",
+                "value": {
+                  "rgba": -10749,
+                  "themeSync": false,
+                  "rainbow": false,
+                  "rainbowMode": "DEFAULT",
+                  "rainbowOffset": 0
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "background",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "color",
+            "value": {
+              "rgba": 1642295408,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "clamping",
+        "value": false
+      },
+      {
+        "name": "snapping",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "range",
+            "value": 50
+          }
+        ]
+      },
+      {
+        "name": "notifications",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "mode",
+            "value": "HUD"
+          },
+          {
+            "name": "moduletoggle",
+            "value": true
+          }
+        ]
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "HitboxIgnore",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "pickaxeonly",
+        "value": true
+      },
+      {
+        "name": "rightclickcompatibility",
+        "value": true
+      },
+      {
+        "name": "entities",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "players",
+            "value": true
+          },
+          {
+            "name": "crystals",
+            "value": true
+          },
+          {
+            "name": "hostiles",
+            "value": false
+          },
+          {
+            "name": "passives",
+            "value": false
+          },
+          {
+            "name": "neutrals",
+            "value": false
+          },
+          {
+            "name": "vehicles",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "blocks",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Hitmarkers",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "time",
+        "value": 15
+      },
+      {
+        "name": "scale",
+        "value": 1.0
+      },
+      {
+        "name": "targets",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "players",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "self",
+                "value": false
+              },
+              {
+                "name": "friendprotect",
+                "value": false
+              },
+              {
+                "name": "prioritizeenemies",
+                "value": true
+              },
+              {
+                "name": "ignorecreative",
+                "value": true
+              }
+            ]
+          },
+          {
+            "name": "hostiles",
+            "value": true
+          },
+          {
+            "name": "passives",
+            "value": true
+          },
+          {
+            "name": "neutrals",
+            "value": true
+          },
+          {
+            "name": "vehicles",
+            "value": true
+          },
+          {
+            "name": "crystals",
+            "value": true
+          },
+          {
+            "name": "items",
+            "value": false
+          },
+          {
+            "name": "projectiles",
+            "value": false
+          },
+          {
+            "name": "others",
+            "value": false
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "HoleESP",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "range",
+        "value": 6.0
+      },
+      {
+        "name": "height",
+        "value": 0.01
+      },
+      {
+        "name": "outline",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "thickness",
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "name": "doubles",
+        "value": false
+      },
+      {
+        "name": "obsidiancolor",
+        "value": {
+          "rgba": 603914240,
+          "themeSync": false,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      },
+      {
+        "name": "bedrockcolor",
+        "value": {
+          "rgba": 587267840,
+          "themeSync": false,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      },
+      {
+        "name": "doublecolor",
+        "value": {
+          "rgba": 603979520,
+          "themeSync": false,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      },
+      {
+        "name": "cityesp",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "range",
+            "value": 6.0
+          },
+          {
+            "name": "color",
+            "value": {
+              "rgba": 1677787135,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "voidesp",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "range",
+            "value": 6.0
+          },
+          {
+            "name": "color",
+            "value": {
+              "rgba": 1694433535,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "HotbarReplenish",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "whileidle",
+        "value": false
+      },
+      {
+        "name": "inventory",
+        "value": true
+      },
+      {
+        "name": "offhand",
+        "value": false
+      },
+      {
+        "name": "threshold",
+        "value": 12
+      },
+      {
+        "name": "delay",
+        "value": 1
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "IceSpeed",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "speed",
+        "value": 1.5
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Ignite",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "reach",
+        "value": 4.0
+      },
+      {
+        "name": "delay",
+        "value": 5.0
+      },
+      {
+        "name": "swap",
+        "value": true
+      },
+      {
+        "name": "rotate",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "speed",
+            "value": 180.0
+          },
+          {
+            "name": "silent",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "targets",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "players",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "self",
+                "value": false
+              },
+              {
+                "name": "friendprotect",
+                "value": true
+              },
+              {
+                "name": "prioritizeenemies",
+                "value": true
+              },
+              {
+                "name": "ignorecreative",
+                "value": true
+              }
+            ]
+          },
+          {
+            "name": "hostiles",
+            "value": true
+          },
+          {
+            "name": "passives",
+            "value": false
+          },
+          {
+            "name": "neutrals",
+            "value": false
+          },
+          {
+            "name": "vehicles",
+            "value": false
+          },
+          {
+            "name": "crystals",
+            "value": false
+          },
+          {
+            "name": "items",
+            "value": false
+          },
+          {
+            "name": "projectiles",
+            "value": false
+          },
+          {
+            "name": "others",
+            "value": false
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "InventoryCleaner",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "BLACKLIST"
+      },
+      {
+        "name": "delay",
+        "value": 1
+      },
+      {
+        "name": "inventory",
+        "value": false
+      },
+      {
+        "name": "ignorehotbar",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "InventoryMove",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "strict",
+        "value": true
+      },
+      {
+        "name": "look",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "always",
+            "value": false
+          },
+          {
+            "name": "speed",
+            "value": 8.0
+          }
+        ]
+      },
+      {
+        "name": "screens",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "containers",
+            "value": true
+          },
+          {
+            "name": "clickgui",
+            "value": false
+          },
+          {
+            "name": "hudeditor",
+            "value": false
+          },
+          {
+            "name": "escapemenu",
+            "value": false
+          },
+          {
+            "name": "others",
+            "value": false
+          }
+        ]
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "Jesus",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "STRICT"
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "LagDetector",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "delay",
+        "value": 1.5
+      },
+      {
+        "name": "render",
+        "value": true
+      },
+      {
+        "name": "notification",
+        "value": true
+      },
+      {
+        "name": "private",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "LagReducer",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "fpscap",
+        "value": 5
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "Lagger",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "SWAP"
+      },
+      {
+        "name": "packets",
+        "value": 500
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "LiquidInteract",
+    "hidden": false,
+    "notifications": true,
+    "toggled": false
+  },
+  {
+    "name": "LogoutSpots",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "COORDS"
+      },
+      {
+        "name": "message",
+        "value": true
+      },
+      {
+        "name": "render",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "box",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "color",
+                "value": {
+                  "rgba": -65536,
+                  "themeSync": true,
+                  "rainbow": false,
+                  "rainbowMode": "DEFAULT",
+                  "rainbowOffset": 0
+                }
+              },
+              {
+                "name": "linewidth",
+                "value": 2.0
+              }
+            ]
+          },
+          {
+            "name": "text",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "scale",
+                "value": 1.0
+              },
+              {
+                "name": "health",
+                "value": true
+              },
+              {
+                "name": "time",
+                "value": true
+              },
+              {
+                "name": "customfont",
+                "value": true
+              },
+              {
+                "name": "color",
+                "value": {
+                  "rgba": -1,
+                  "themeSync": false,
+                  "rainbow": false,
+                  "rainbowMode": "DEFAULT",
+                  "rainbowOffset": 0
+                }
+              }
+            ]
+          },
+          {
+            "name": "delete",
+            "value": true
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "MiddleClick",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "friend",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "notification",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "pearl",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "delay",
+            "value": 0.2
+          }
+        ]
+      },
+      {
+        "name": "entitynbt",
+        "value": true
+      },
+      {
+        "name": "blocknbt",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "MobOwner",
+    "hidden": false,
+    "notifications": true,
+    "toggled": true
+  },
+  {
+    "name": "MultiTask",
+    "hidden": false,
+    "notifications": true,
+    "toggled": false
+  },
+  {
+    "name": "Nametags",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "nameplate",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "background",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "rounded",
+                "value": true,
+                "subSettings": [
+                  {
+                    "name": "radius",
+                    "value": 3
+                  }
+                ]
+              },
+              {
+                "name": "color",
+                "value": {
+                  "rgba": 1677721600,
+                  "themeSync": false,
+                  "rainbow": false,
+                  "rainbowMode": "DEFAULT",
+                  "rainbowOffset": 0
+                }
+              },
+              {
+                "name": "outline",
+                "value": true,
+                "subSettings": [
+                  {
+                    "name": "width",
+                    "value": 2.0
+                  },
+                  {
+                    "name": "color",
+                    "value": {
+                      "rgba": -1,
+                      "themeSync": false,
+                      "rainbow": false,
+                      "rainbowMode": "DEFAULT",
+                      "rainbowOffset": 0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "health",
+            "value": "HP"
+          },
+          {
+            "name": "gamemode",
+            "value": true
+          },
+          {
+            "name": "ping",
+            "value": false
+          },
+          {
+            "name": "totempops",
+            "value": false
+          },
+          {
+            "name": "entityid",
+            "value": false
+          },
+          {
+            "name": "horseinfo",
+            "value": true
+          },
+          {
+            "name": "friendcolor",
+            "value": "TEXT"
+          }
+        ]
+      },
+      {
+        "name": "items",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "armor",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "reversed",
+                "value": false
+              }
+            ]
+          },
+          {
+            "name": "mainhand",
+            "value": true
+          },
+          {
+            "name": "offhand",
+            "value": true
+          },
+          {
+            "name": "durability",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "scale",
+                "value": 0.5
+              }
+            ]
+          },
+          {
+            "name": "enchants",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "mode",
+                "value": "BELOW"
+              },
+              {
+                "name": "simple",
+                "value": true,
+                "subSettings": [
+                  {
+                    "name": "color",
+                    "value": {
+                      "rgba": -65536,
+                      "themeSync": false,
+                      "rainbow": false,
+                      "rainbowMode": "DEFAULT",
+                      "rainbowOffset": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "scale",
+                "value": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "itemname",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "scale",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "scale",
+        "value": 1.5
+      },
+      {
+        "name": "distancescaling",
+        "value": true
+      },
+      {
+        "name": "customfont",
+        "value": true
+      },
+      {
+        "name": "multiline",
+        "value": false
+      },
+      {
+        "name": "targets",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "players",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "self",
+                "value": false
+              }
+            ]
+          },
+          {
+            "name": "hostiles",
+            "value": false
+          },
+          {
+            "name": "passives",
+            "value": false
+          },
+          {
+            "name": "neutrals",
+            "value": false
+          },
+          {
+            "name": "vehicles",
+            "value": false
+          },
+          {
+            "name": "crystals",
+            "value": false
+          },
+          {
+            "name": "items",
+            "value": false
+          },
+          {
+            "name": "projectiles",
+            "value": false
+          },
+          {
+            "name": "others",
+            "value": false
+          }
+        ]
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "NewChunks",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "NEW_BLOCKS"
+      },
+      {
+        "name": "ignoreunderbedrock",
+        "value": true
+      },
+      {
+        "name": "inverse",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "logging",
+            "value": false
+          },
+          {
+            "name": "sound",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "maxdistance",
+        "value": 300.0
+      },
+      {
+        "name": "ylevel",
+        "value": "SKY"
+      },
+      {
+        "name": "owcolor",
+        "value": {
+          "rgba": 1090453504,
+          "themeSync": false,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      },
+      {
+        "name": "nethercolor",
+        "value": {
+          "rgba": 1073807104,
+          "themeSync": false,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      },
+      {
+        "name": "endcolor",
+        "value": {
+          "rgba": 1090453504,
+          "themeSync": false,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      },
+      {
+        "name": "fill",
+        "value": true
+      },
+      {
+        "name": "outline",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "width",
+            "value": 2.0
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "NoFall",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "PACKET"
+      },
+      {
+        "name": "distance",
+        "value": 3.0
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "NoForceRotate",
+    "hidden": false,
+    "notifications": true,
+    "toggled": false
+  },
+  {
+    "name": "NoGlitchBlocks",
+    "hidden": false,
+    "notifications": true,
+    "toggled": false
+  },
+  {
+    "name": "NoMineAnimation",
+    "hidden": false,
+    "notifications": true,
+    "toggled": false
+  },
+  {
+    "name": "NoRender",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "player",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "overlays",
+            "value": true
+          },
+          {
+            "name": "bobbing",
+            "value": false
+          },
+          {
+            "name": "hurtcam",
+            "value": true
+          },
+          {
+            "name": "blindness",
+            "value": true
+          },
+          {
+            "name": "totempop",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "ui",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "background",
+            "value": true
+          },
+          {
+            "name": "scoreboard",
+            "value": false
+          },
+          {
+            "name": "potionoverlay",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "world",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "weather",
+            "value": true
+          },
+          {
+            "name": "fog",
+            "value": true
+          },
+          {
+            "name": "caveculling",
+            "value": true
+          }
+        ]
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "NoSlow",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "items",
+        "value": true
+      },
+      {
+        "name": "ice",
+        "value": false
+      },
+      {
+        "name": "soulsand",
+        "value": false
+      },
+      {
+        "name": "slimeblocks",
+        "value": false
+      },
+      {
+        "name": "strict",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "2b2t",
+            "value": true
+          }
+        ]
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "Notifications",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "queue",
+        "value": true
+      },
+      {
+        "name": "damage",
+        "value": true
+      },
+      {
+        "name": "death",
+        "value": true
+      },
+      {
+        "name": "disconnect",
+        "value": true
+      },
+      {
+        "name": "mention",
+        "value": true
+      },
+      {
+        "name": "whisper",
+        "value": true
+      },
+      {
+        "name": "totempop",
+        "value": true
+      },
+      {
+        "name": "focusedcheck",
+        "value": true
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "Nuker",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "SURVIVAL"
+      },
+      {
+        "name": "targeting",
+        "value": "WHITELIST"
+      },
+      {
+        "name": "clicktype",
+        "value": "LEFT"
+      },
+      {
+        "name": "break",
+        "value": "NORMAL"
+      },
+      {
+        "name": "priority",
+        "value": "CLOSEST"
+      },
+      {
+        "name": "range",
+        "value": 4.51
+      },
+      {
+        "name": "delay",
+        "value": 1
+      },
+      {
+        "name": "strict",
+        "value": false
+      },
+      {
+        "name": "flatten",
+        "value": false
+      },
+      {
+        "name": "rotate",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "speed",
+            "value": 180.0
+          },
+          {
+            "name": "silent",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "render",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "color",
+            "value": {
+              "rgba": 603914240,
+              "themeSync": false,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "PacketLogger",
+    "hidden": false,
+    "notifications": true,
+    "toggled": false
+  },
+  {
+    "name": "Phase",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "SAND"
+      },
+      {
+        "name": "speed",
+        "value": 1.0
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "PingSpoof",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "delay",
+        "value": 500
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "PortalGodMode",
+    "hidden": false,
+    "notifications": true,
+    "toggled": false
+  },
+  {
+    "name": "PortalGui",
+    "hidden": true,
+    "notifications": true,
+    "toggled": true
+  },
+  {
+    "name": "PvpInfo",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "potions",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "strengthdetect",
+            "value": true
+          },
+          {
+            "name": "selfrunout",
+            "value": false,
+            "subSettings": [
+              {
+                "name": "strength",
+                "value": true
+              },
+              {
+                "name": "absorption",
+                "value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "pearls",
+        "value": true
+      },
+      {
+        "name": "visualrange",
+        "value": false
+      },
+      {
+        "name": "totempops",
+        "value": true
+      },
+      {
+        "name": "32k_detect",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Quiver",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "macro",
+        "value": false
+      },
+      {
+        "name": "primary",
+        "value": "STRENGTH"
+      },
+      {
+        "name": "secondary",
+        "value": "SPEED"
+      },
+      {
+        "name": "bowticks",
+        "value": 5
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "RainbowEnchant",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "color",
+        "value": {
+          "rgba": -65536,
+          "themeSync": false,
+          "rainbow": true,
+          "rainbowMode": "GRADIENT",
+          "rainbowOffset": 0
+        }
+      },
+      {
+        "name": "strong",
+        "value": true
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "RichPresence",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "ADVANCED"
+      },
+      {
+        "name": "delay",
+        "value": 2000
+      },
+      {
+        "name": "queue",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "priority",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "basic_customization",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "serverip",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "advanced",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "globals",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "imageurl",
+                "value": "https://i.imgur.com/brdaQhg.png"
+              },
+              {
+                "name": "globaldetails",
+                "value": ""
+              },
+              {
+                "name": "globalstate",
+                "value": ""
+              }
+            ]
+          },
+          {
+            "name": "main_menu",
+            "value": null,
+            "subSettings": [
+              {
+                "name": "details",
+                "value": "main menuuu"
+              },
+              {
+                "name": "state",
+                "value": "buy wusewhack today!"
+              }
+            ]
+          },
+          {
+            "name": "in_queue",
+            "value": null,
+            "subSettings": [
+              {
+                "name": "details",
+                "value": "playin on %server-ip%"
+              },
+              {
+                "name": "state",
+                "value": "In queue"
+              }
+            ]
+          },
+          {
+            "name": "in_game",
+            "value": null,
+            "subSettings": [
+              {
+                "name": "details",
+                "value": "pwaying on %server-ip%"
+              },
+              {
+                "name": "state",
+                "value": "buy wushewhack :3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "RotationLock",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "yaw",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "angles",
+            "value": 4
+          },
+          {
+            "name": "custom",
+            "value": false,
+            "subSettings": [
+              {
+                "name": "yaw",
+                "value": 135.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "pitch",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "angles",
+            "value": 9
+          },
+          {
+            "name": "custom",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "pitch",
+                "value": 90.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "hard",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "RusherCrypt",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "encrypt",
+        "value": true
+      },
+      {
+        "name": "decrypt",
+        "value": true
+      },
+      {
+        "name": "chatobfuscation",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Safewalk",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "slabs",
+        "value": true
+      },
+      {
+        "name": "riding",
+        "value": true
+      },
+      {
+        "name": "sneak",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "2b2t",
+            "value": true
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Scaffold",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "blocks",
+        "value": "BLACKLIST"
+      },
+      {
+        "name": "rotate",
+        "value": "INSTANT"
+      },
+      {
+        "name": "autoswap",
+        "value": true
+      },
+      {
+        "name": "tower",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "strict",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "safewalk",
+        "value": true
+      },
+      {
+        "name": "echestholding",
+        "value": false
+      },
+      {
+        "name": "render",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "color",
+            "value": {
+              "rgba": 838926335,
+              "themeSync": true,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Search",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "blocks",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "alert",
+            "value": false
+          },
+          {
+            "name": "sound",
+            "value": false
+          },
+          {
+            "name": "illegalbedrock",
+            "value": true
+          },
+          {
+            "name": "ignorenaturalchests",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "entities",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "alert",
+            "value": false
+          },
+          {
+            "name": "sound",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "render_settings",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "box",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "fill",
+                "value": true
+              },
+              {
+                "name": "outline",
+                "value": true,
+                "subSettings": [
+                  {
+                    "name": "width",
+                    "value": 2.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tracer",
+            "value": true
+          },
+          {
+            "name": "colormode",
+            "value": "STATIC"
+          },
+          {
+            "name": "color",
+            "value": {
+              "rgba": 838926335,
+              "themeSync": true,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "debug",
+        "value": false
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "SelfBlock",
+    "hidden": false,
+    "notifications": false,
+    "settings": [
+      {
+        "name": "insidecheck",
+        "value": true
+      },
+      {
+        "name": "rotate",
+        "value": true
+      },
+      {
+        "name": "center",
+        "value": false
+      },
+      {
+        "name": "only",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "obsidian",
+            "value": true
+          },
+          {
+            "name": "enderchests",
+            "value": true
+          },
+          {
+            "name": "skulls",
+            "value": true
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "ShulkerCeption",
+    "hidden": false,
+    "notifications": true,
+    "toggled": false
+  },
+  {
+    "name": "SkinBlink",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "ALL"
+      },
+      {
+        "name": "delay",
+        "value": 100.0
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "SourceRemover",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "range",
+        "value": 4.0
+      },
+      {
+        "name": "wallrange",
+        "value": 3.0
+      },
+      {
+        "name": "delay",
+        "value": 1
+      },
+      {
+        "name": "rotate",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "speed",
+            "value": 180.0
+          },
+          {
+            "name": "silent",
+            "value": true
+          },
+          {
+            "name": "strict",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "swap",
+        "value": true
+      },
+      {
+        "name": "water",
+        "value": true
+      },
+      {
+        "name": "lava",
+        "value": true
+      },
+      {
+        "name": "render",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "color",
+            "value": {
+              "rgba": 838926335,
+              "themeSync": true,
+              "rainbow": false,
+              "rainbowMode": "DEFAULT",
+              "rainbowOffset": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "pausebaritone",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Spammer",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "file",
+        "value": "default.txt"
+      },
+      {
+        "name": "mode",
+        "value": "IN_ORDER"
+      },
+      {
+        "name": "whisper",
+        "value": false
+      },
+      {
+        "name": "delay",
+        "value": 3.71
+      },
+      {
+        "name": "randomdelay",
+        "value": 0.0
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Speed",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "STRAFE"
+      },
+      {
+        "name": "ongroundstrict",
+        "value": false
+      },
+      {
+        "name": "speed",
+        "value": 5.0
+      },
+      {
+        "name": "timer",
+        "value": true
+      },
+      {
+        "name": "autosprint",
+        "value": true
+      },
+      {
+        "name": "strict",
+        "value": true
+      },
+      {
+        "name": "water",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Sprint",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "omnidirectional",
+        "value": false
+      },
+      {
+        "name": "strict",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Step",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "NCP"
+      },
+      {
+        "name": "height",
+        "value": 2.0
+      },
+      {
+        "name": "upwards",
+        "value": true
+      },
+      {
+        "name": "reverse",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "strict",
+            "value": false
+          },
+          {
+            "name": "height",
+            "value": 10.0
+          },
+          {
+            "name": "speed",
+            "value": 10.0
+          }
+        ]
+      },
+      {
+        "name": "packetrate",
+        "value": 4
+      },
+      {
+        "name": "timer",
+        "value": false
+      },
+      {
+        "name": "riding",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Swing",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "noswing",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "clientside",
+            "value": false
+          },
+          {
+            "name": "strict",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "offhand",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Theme",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "theme",
+        "value": "Classic"
+      },
+      {
+        "name": "color",
+        "value": {
+          "rgba": -922807040,
+          "themeSync": false,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      },
+      {
+        "name": "panels",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "outline",
+            "value": true
+          },
+          {
+            "name": "height",
+            "value": 500
+          }
+        ]
+      },
+      {
+        "name": "items",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "indicator",
+            "value": "VERTICAL"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "TickShift",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "NORMAL"
+      },
+      {
+        "name": "ticks",
+        "value": 20
+      },
+      {
+        "name": "autodisable",
+        "value": false
+      },
+      {
+        "name": "2b2t",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Timer",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "speed",
+        "value": 2.0
+      },
+      {
+        "name": "tps_sync",
+        "value": false
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Timestamps",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "24hr",
+        "value": false
+      },
+      {
+        "name": "time_color",
+        "value": {
+          "rgba": -5592406,
+          "themeSync": false,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      },
+      {
+        "name": "seconds",
+        "value": false
+      },
+      {
+        "name": "punctuation",
+        "value": "ARROW"
+      },
+      {
+        "name": "punctuation_color",
+        "value": {
+          "rgba": -11184811,
+          "themeSync": false,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      },
+      {
+        "name": "am/pm",
+        "value": true
+      },
+      {
+        "name": "space",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Tracers",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "colormode",
+        "value": "DISTANCE"
+      },
+      {
+        "name": "transparency",
+        "value": 108
+      },
+      {
+        "name": "hidef1",
+        "value": true
+      },
+      {
+        "name": "targets",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "players",
+            "value": true
+          },
+          {
+            "name": "friends",
+            "value": false
+          },
+          {
+            "name": "hostiles",
+            "value": false
+          },
+          {
+            "name": "passives",
+            "value": false
+          },
+          {
+            "name": "neutrals",
+            "value": false
+          },
+          {
+            "name": "vehicles",
+            "value": false
+          },
+          {
+            "name": "crystals",
+            "value": false
+          },
+          {
+            "name": "items",
+            "value": false
+          }
+        ]
+      },
+      {
+        "name": "spine",
+        "value": true
+      },
+      {
+        "name": "thickness",
+        "value": 1.0
+      },
+      {
+        "name": "target",
+        "value": "BODY"
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "Trajectories",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "prediction",
+        "value": true
+      },
+      {
+        "name": "others",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "targets",
+            "value": null,
+            "subSettings": [
+              {
+                "name": "players",
+                "value": true,
+                "subSettings": [
+                  {
+                    "name": "self",
+                    "value": false
+                  }
+                ]
+              },
+              {
+                "name": "hostiles",
+                "value": false
+              },
+              {
+                "name": "passives",
+                "value": false
+              },
+              {
+                "name": "neutrals",
+                "value": false
+              },
+              {
+                "name": "vehicles",
+                "value": false
+              },
+              {
+                "name": "crystals",
+                "value": false
+              },
+              {
+                "name": "items",
+                "value": false
+              },
+              {
+                "name": "projectiles",
+                "value": false
+              },
+              {
+                "name": "others",
+                "value": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "airborne",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "arrows",
+            "value": true
+          },
+          {
+            "name": "fireballs",
+            "value": true
+          },
+          {
+            "name": "pearls",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "target",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "fill",
+            "value": true
+          },
+          {
+            "name": "outline",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "width",
+        "value": 2
+      },
+      {
+        "name": "color",
+        "value": {
+          "rgba": 1073807359,
+          "themeSync": false,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Translate",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "sending",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "notice",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "receiving",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "notice",
+            "value": true
+          },
+          {
+            "name": "keeporiginal",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "privatemessages",
+        "value": false
+      },
+      {
+        "name": "input",
+        "value": "Japanese"
+      },
+      {
+        "name": "output",
+        "value": "English"
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "TriggerBot",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "weaponcheck",
+        "value": false
+      },
+      {
+        "name": "attackspeed",
+        "value": 5.0
+      },
+      {
+        "name": "targets",
+        "value": null,
+        "subSettings": [
+          {
+            "name": "players",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "self",
+                "value": false
+              },
+              {
+                "name": "friendprotect",
+                "value": true
+              },
+              {
+                "name": "prioritizeenemies",
+                "value": true
+              },
+              {
+                "name": "ignorecreative",
+                "value": true
+              }
+            ]
+          },
+          {
+            "name": "hostiles",
+            "value": true
+          },
+          {
+            "name": "passives",
+            "value": false
+          },
+          {
+            "name": "neutrals",
+            "value": false
+          },
+          {
+            "name": "vehicles",
+            "value": true
+          },
+          {
+            "name": "crystals",
+            "value": false
+          },
+          {
+            "name": "items",
+            "value": false
+          },
+          {
+            "name": "projectiles",
+            "value": false
+          },
+          {
+            "name": "others",
+            "value": false
+          }
+        ]
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Velocity",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "pushing",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "entities",
+            "value": true
+          },
+          {
+            "name": "water",
+            "value": true
+          },
+          {
+            "name": "blocks",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "horizontal",
+        "value": 0
+      },
+      {
+        "name": "vertical",
+        "value": 0
+      },
+      {
+        "name": "2b2t",
+        "value": true
+      },
+      {
+        "name": "debug",
+        "value": true
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "ViewClip",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "distance",
+        "value": 3.84
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "ViewModel",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "fov",
+        "value": 82.0
+      },
+      {
+        "name": "hands",
+        "value": false
+      },
+      {
+        "name": "sway",
+        "value": true
+      },
+      {
+        "name": "left",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "scale",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "x",
+                "value": 0.8
+              },
+              {
+                "name": "y",
+                "value": 0.8
+              },
+              {
+                "name": "z",
+                "value": 0.8
+              }
+            ]
+          },
+          {
+            "name": "rotate",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "x",
+                "value": 0
+              },
+              {
+                "name": "y",
+                "value": 0
+              },
+              {
+                "name": "z",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "name": "offset",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "whileeating",
+                "value": false
+              },
+              {
+                "name": "x",
+                "value": -1.0
+              },
+              {
+                "name": "y",
+                "value": 0.0
+              },
+              {
+                "name": "z",
+                "value": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "right",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "scale",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "x",
+                "value": 0.8
+              },
+              {
+                "name": "y",
+                "value": 0.8
+              },
+              {
+                "name": "z",
+                "value": 0.8
+              }
+            ]
+          },
+          {
+            "name": "rotate",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "x",
+                "value": 0
+              },
+              {
+                "name": "y",
+                "value": 0
+              },
+              {
+                "name": "z",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "name": "offset",
+            "value": true,
+            "subSettings": [
+              {
+                "name": "whileeating",
+                "value": false
+              },
+              {
+                "name": "x",
+                "value": 0.4
+              },
+              {
+                "name": "y",
+                "value": 0.0
+              },
+              {
+                "name": "z",
+                "value": -0.6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "toggled": true
+  },
+  {
+    "name": "WaterSpeed",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "lava",
+        "value": true
+      },
+      {
+        "name": "depthstriderrequired",
+        "value": false
+      },
+      {
+        "name": "speed",
+        "value": 1.0
+      },
+      {
+        "name": "vertical",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "upwardsmult",
+            "value": 2.0
+          },
+          {
+            "name": "downwardsmult",
+            "value": 2.0
+          }
+        ]
+      },
+      {
+        "name": "lavamultiplier",
+        "value": 0.4
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Waypoints",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "mode",
+        "value": "DISTANCE"
+      },
+      {
+        "name": "nametag",
+        "value": true,
+        "subSettings": [
+          {
+            "name": "customfont",
+            "value": true
+          },
+          {
+            "name": "vertical",
+            "value": true
+          },
+          {
+            "name": "scale",
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "name": "beam",
+        "value": true
+      },
+      {
+        "name": "box",
+        "value": false
+      },
+      {
+        "name": "tracer",
+        "value": false
+      },
+      {
+        "name": "autodisconnect",
+        "value": false,
+        "subSettings": [
+          {
+            "name": "range",
+            "value": 20.0
+          }
+        ]
+      },
+      {
+        "name": "color",
+        "value": {
+          "rgba": -16711681,
+          "themeSync": true,
+          "rainbow": false,
+          "rainbowMode": "DEFAULT",
+          "rainbowOffset": 0
+        }
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "XCarry",
+    "hidden": false,
+    "notifications": true,
+    "settings": [
+      {
+        "name": "cancel",
+        "value": false
+      },
+      {
+        "name": "shiftclick",
+        "value": false
+      },
+      {
+        "name": "armorslots",
+        "value": true
+      }
+    ],
+    "toggled": false
+  },
+  {
+    "name": "Xray",
+    "hidden": false,
+    "notifications": true,
+    "toggled": false
+  },
+  {
+    "name": "Zoom",
+    "hidden": true,
+    "notifications": false,
+    "settings": [
+      {
+        "name": "usage",
+        "value": "HOLD"
+      },
+      {
+        "name": "zoom",
+        "value": 2.0
+      },
+      {
+        "name": "reset",
+        "value": false
+      },
+      {
+        "name": "scroll",
+        "value": false
+      }
+    ],
+    "toggled": false
+  }
+]
