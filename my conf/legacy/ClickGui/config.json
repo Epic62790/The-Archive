@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Chat",
+    "open": true,
+    "x": 20,
+    "y": 10
+  },
+  {
+    "name": "Combat",
+    "open": true,
+    "x": 115,
+    "y": 10
+  },
+  {
+    "name": "Player",
+    "open": true,
+    "x": 400,
+    "y": 10
+  },
+  {
+    "name": "World",
+    "open": true,
+    "x": 590,
+    "y": 10
+  },
+  {
+    "name": "Client",
+    "open": true,
+    "x": 685,
+    "y": 10
+  },
+  {
+    "name": "Movement",
+    "open": true,
+    "x": 305,
+    "y": 10
+  },
+  {
+    "name": "Render",
+    "open": true,
+    "x": 495,
+    "y": 10
+  },
+  {
+    "name": "Miscellaneous",
+    "open": true,
+    "x": 210,
+    "y": 10
+  }
+]

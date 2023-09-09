@@ -1,0 +1,13 @@
+[
+  {
+    "imageUrl": "",
+    "global-details": "",
+    "global-state": "",
+    "mainmenu-details": "Main Menu",
+    "mainmenu-state": "https://rusherhack.org/",
+    "inqueue-details": "Playing %server-ip%",
+    "inqueue-state": "In queue",
+    "ingame-details": "Playing %server-ip%",
+    "ingame-state": "https://rusherhack.org/"
+  }
+]
