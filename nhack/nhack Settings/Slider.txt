@@ -1,0 +1,2 @@
+Entity Speed:3.5
+Timer:2.0

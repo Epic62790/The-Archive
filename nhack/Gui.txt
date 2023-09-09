@@ -1,0 +1,9 @@
+Combat=5=25=true
+ESP=109=25=true
+Player=214=25=true
+World=319=25=true
+Misc=423=25=true
+Position=864=102=true
+Hunger Stats=611=253=false
+Feature List=863=268=true
+Inventory=826=2=true
