@@ -16,6 +16,15 @@
 ⢸⣿⣿⡏⠉⢱⣶⣦⠰⡄⢆⣶⣶⠉⠉⣿⡇⠀⠝⠹⠎⠐⠀⢸⡎⡛⠐⠿⠳⠍⠀⠀⠀⠀⠸⣿⣿⠊⠀⠻⠿⣽⣻⣿⢿⡯⠿⠉⠀⠉⠛⠀⠀⠀⠘⣯⡿⣞⣆⠀
 ⠸⠿⣿⡇⠀⠨⢍⣳⠿⣽⢯⡩⢝⠀⠀⣿⡇⠀⠀⠀⠀⠀⠀⠘⠃⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⢰⠀⠀⠀⠀⠀⠁⠈⠁⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠈⠋⠀⠀
     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+**ATTENTION: This Repository DOES go against RusherHack Terms of Service;**
+
+https://rusherhack.org/tos.html
+    
+Rusherhack TOS, Section 5, Prohibited Activities, Line 13: Distribute the source code, the modification itself, attempt to crack, decompile, dump, decipher, disassemble, reverse-engineer, or deobfuscate any of the software comprising or in any way making up a part of the Site.
+
+~
+
 </p>
 
 **RusherHack is a Player Assistance Utility Mod designed for anarchy servers like 2b2t.org and oldfrog.org
