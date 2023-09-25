@@ -23,7 +23,7 @@ https://rusherhack.org/tos.html
     
 Rusherhack TOS, Section 5, Prohibited Activities, Line 13: Distribute the source code, the modification itself, attempt to crack, decompile, dump, decipher, disassemble, reverse-engineer, or deobfuscate any of the software comprising or in any way making up a part of the Site.
 
-~
+%
 
 </p>
 
